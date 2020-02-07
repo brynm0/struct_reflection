@@ -1,0 +1,1138 @@
+ struct_reflection
+
+ Timestamp is 5e3d12f3 (Fri Feb  7 18:34:11 2020)
+
+ Preferred load address is 0000000140000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005d10H .text$mn                CODE
+ 0001:00005d10 00000020H .text$mn$00             CODE
+ 0001:00005d30 0000016dH .text$x                 CODE
+ 0002:00000000 00000210H .idata$5                DATA
+ 0002:00000210 00000010H .00cfg                  DATA
+ 0002:00000220 00000008H .CRT$XCA                DATA
+ 0002:00000228 00000008H .CRT$XCAA               DATA
+ 0002:00000230 00000008H .CRT$XCZ                DATA
+ 0002:00000238 00000008H .CRT$XIA                DATA
+ 0002:00000240 00000008H .CRT$XIAA               DATA
+ 0002:00000248 00000008H .CRT$XIAC               DATA
+ 0002:00000250 00000008H .CRT$XIZ                DATA
+ 0002:00000258 00000008H .CRT$XPA                DATA
+ 0002:00000260 00000008H .CRT$XPZ                DATA
+ 0002:00000268 00000008H .CRT$XTA                DATA
+ 0002:00000270 00000010H .CRT$XTZ                DATA
+ 0002:00000278 00000000H .gfids$y                DATA
+ 0002:00000280 00001a00H .rdata                  DATA
+ 0002:00001c80 000001f4H .rdata$r                DATA
+ 0002:00001e74 000002ccH .rdata$zzzdbg           DATA
+ 0002:00002140 00000008H .rtc$IAA                DATA
+ 0002:00002148 00000008H .rtc$IZZ                DATA
+ 0002:00002150 00000008H .rtc$TAA                DATA
+ 0002:00002158 00000008H .rtc$TZZ                DATA
+ 0002:00002160 000007b8H .xdata                  DATA
+ 0002:00002918 000000ecH .xdata$x                DATA
+ 0002:00002a04 00000000H .edata                  DATA
+ 0002:00002a04 00000050H .idata$2                DATA
+ 0002:00002a54 00000014H .idata$3                DATA
+ 0002:00002a68 00000210H .idata$4                DATA
+ 0002:00002c78 000004f0H .idata$6                DATA
+ 0003:00000000 00000038H .data                   DATA
+ 0003:00000038 000000a8H .data$r                 DATA
+ 0003:000000e0 00000620H .bss                    DATA
+ 0004:00000000 0000081cH .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000140000000     <linker-defined>
+ 0001:00000000       ?streq@@YAIPEAD0I@Z        0000000140001000 f   struct_reflection.obj
+ 0001:00000330       ?getToken@@YA?AUToken@@PEAUTokenizer@@@Z 0000000140001330 f   struct_reflection.obj
+ 0001:00000b50       ?peek_tok@@YA?AUToken@@UTokenizer@@@Z 0000000140001b50 f   struct_reflection.obj
+ 0001:00000c30       ??8@YAIAEBUToken@@0@Z      0000000140001c30 f   struct_reflection.obj
+ 0001:00001860       main                       0000000140002860 f   struct_reflection.obj
+ 0001:000021f0       ??$?0$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 00000001400031f0 f i struct_reflection.obj
+ 0001:00002220       ??$?0Ulen_string@@@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@Ulen_string@@@1@@Z 0000000140003220 f i struct_reflection.obj
+ 0001:00002230       ??$?0V?$allocator@Ulen_string@@@std@@$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Ulen_string@@@1@@Z 0000000140003230 f i struct_reflection.obj
+ 0001:00002270       ??$?0V?$allocator@Ulen_string@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Ulen_string@@@1@@Z 0000000140003270 f i struct_reflection.obj
+ 0001:000022b0       ??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 00000001400032b0 f i struct_reflection.obj
+ 0001:000022f0       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 00000001400032f0 f i struct_reflection.obj
+ 0001:00002400       ??$_Copy_memmove@PEAUlen_string@@PEAU1@@std@@YAPEAUlen_string@@PEAU1@00@Z 0000000140003400 f i struct_reflection.obj
+ 0001:00002470       ??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140003470 f i struct_reflection.obj
+ 0001:000024b0       ??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z 00000001400034b0 f i struct_reflection.obj
+ 0001:000024e0       ??$_Destroy_range1@V?$allocator@Ulen_string@@@std@@@std@@YAXPEAUlen_string@@0AEAV?$allocator@Ulen_string@@@0@U?$integral_constant@_N$00@0@@Z 00000001400034e0 f i struct_reflection.obj
+ 0001:00002500       ??$_Destroy_range@V?$allocator@Ulen_string@@@std@@@std@@YAXPEAUlen_string@@0AEAV?$allocator@Ulen_string@@@0@@Z 0000000140003500 f i struct_reflection.obj
+ 0001:00002550       ??$_Emplace_back_with_unused_capacity@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAX$$QEAUlen_string@@@Z 0000000140003550 f i struct_reflection.obj
+ 0001:00002610       ??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 0000000140003610 f i struct_reflection.obj
+ 0001:00002860       ??$_Get_size_of_n@$0BA@@std@@YA_K_K@Z 0000000140003860 f i struct_reflection.obj
+ 0001:000028b0       ??$_Get_unwrapped@Ulen_string@@@std@@YAPEAUlen_string@@QEAU1@@Z 00000001400038b0 f i struct_reflection.obj
+ 0001:000028c0       ??$_Get_unwrapped_n@Ulen_string@@_J$0A@@std@@YAPEAUlen_string@@QEAU1@_J@Z 00000001400038c0 f i struct_reflection.obj
+ 0001:000028d0       ??$_Idl_distance1@PEAUlen_string@@PEAU1@@std@@YA_JAEBQEAUlen_string@@0Urandom_access_iterator_tag@0@@Z 00000001400038d0 f i struct_reflection.obj
+ 0001:00002900       ??$_Idl_distance@PEAUlen_string@@PEAU1@@std@@YA_JAEBQEAUlen_string@@0@Z 0000000140003900 f i struct_reflection.obj
+ 0001:00002930       ??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140003930 f i struct_reflection.obj
+ 0001:00002980       ??$_Ptr_copy_cat@Ulen_string@@U1@@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@AEBQEAUlen_string@@0@Z 0000000140003980 f i struct_reflection.obj
+ 0001:000029a0       ??$_Ptr_move_cat@Ulen_string@@U1@@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@AEBQEAUlen_string@@0@Z 00000001400039a0 f i struct_reflection.obj
+ 0001:000029c0       ??$_Seek_wrapped@Ulen_string@@@std@@YAXAEAPEAUlen_string@@QEAU1@@Z 00000001400039c0 f i struct_reflection.obj
+ 0001:000029e0       ??$_Ucopy@PEAUlen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU2@00@Z 00000001400039e0 f i struct_reflection.obj
+ 0001:00002a20       ??$_Unfancy@U_Container_proxy@std@@@std@@YAPEAU_Container_proxy@0@PEAU10@@Z 0000000140003a20 f i struct_reflection.obj
+ 0001:00002a30       ??$_Unfancy@Ulen_string@@@std@@YAPEAUlen_string@@PEAU1@@Z 0000000140003a30 f i struct_reflection.obj
+ 0001:00002a40       ??$_Uninitialized_copy@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 0000000140003a40 f i struct_reflection.obj
+ 0001:00002af0       ??$_Uninitialized_copy_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 0000000140003af0 f i struct_reflection.obj
+ 0001:00002b30       ??$_Uninitialized_move@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 0000000140003b30 f i struct_reflection.obj
+ 0001:00002be0       ??$_Uninitialized_move_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 0000000140003be0 f i struct_reflection.obj
+ 0001:00002c20       ??$addressof@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@std@@@std@@YAPEAV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@0@AEAV10@@Z 0000000140003c20 f i struct_reflection.obj
+ 0001:00002c30       ??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@1@QEAU_Container_proxy@1@$$QEAU31@@Z 0000000140003c30 f i struct_reflection.obj
+ 0001:00002c80       ??$construct@Ulen_string@@U1@@?$_Default_allocator_traits@V?$allocator@Ulen_string@@@std@@@std@@SAXAEAV?$allocator@Ulen_string@@@1@QEAUlen_string@@$$QEAU3@@Z 0000000140003c80 f i struct_reflection.obj
+ 0001:00002cd0       ??$destroy@U_Container_proxy@std@@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@1@QEAU_Container_proxy@1@@Z 0000000140003cd0 f i struct_reflection.obj
+ 0001:00002ce0       ??$emplace_back@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 0000000140003ce0 f i struct_reflection.obj
+ 0001:00002d50       ??$forward@U_Container_proxy@std@@@std@@YA$$QEAU_Container_proxy@0@AEAU10@@Z 0000000140003d50 f i struct_reflection.obj
+ 0001:00002d60       ??$forward@Ulen_string@@@std@@YA$$QEAUlen_string@@AEAU1@@Z 0000000140003d60 f i struct_reflection.obj
+ 0001:00002d70       ??$forward@V?$allocator@Ulen_string@@@std@@@std@@YA$$QEAV?$allocator@Ulen_string@@@0@AEAV10@@Z 0000000140003d70 f i struct_reflection.obj
+ 0001:00002d80       ??$move@AEAUlen_string@@@std@@YA$$QEAUlen_string@@AEAU1@@Z 0000000140003d80 f i struct_reflection.obj
+ 0001:00002d90       ??0?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 0000000140003d90 f i struct_reflection.obj
+ 0001:00002dc0       ??0?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140003dc0 f i struct_reflection.obj
+ 0001:00002e10       ??0?$allocator@Ulen_string@@@std@@QEAA@XZ 0000000140003e10 f i struct_reflection.obj
+ 0001:00002e20       ??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 0000000140003e20 f i struct_reflection.obj
+ 0001:00002ef0       ??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140003ef0 f i struct_reflection.obj
+ 0001:00002f20       ??0_Container_base12@std@@QEAA@XZ 0000000140003f20 f i struct_reflection.obj
+ 0001:00002f40       ??0_Container_proxy@std@@QEAA@XZ 0000000140003f40 f i struct_reflection.obj
+ 0001:00002f70       ??1?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 0000000140003f70 f i struct_reflection.obj
+ 0001:00002fa0       ??1?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140003fa0 f i struct_reflection.obj
+ 0001:00002fd0       ??2@YAPEAX_KPEAX@Z         0000000140003fd0 f i struct_reflection.obj
+ 0001:00002fe0       ??A?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAAEAUlen_string@@_K@Z 0000000140003fe0 f i struct_reflection.obj
+ 0001:000030a0       ?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 00000001400040a0 f i struct_reflection.obj
+ 0001:00003240       ?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 0000000140004240 f i struct_reflection.obj
+ 0001:000032f0       ?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 00000001400042f0 f i struct_reflection.obj
+ 0001:00003310       ?_Buy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAA_N_K@Z 0000000140004310 f i struct_reflection.obj
+ 0001:00003400       ?_Calculate_growth@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_K_K@Z 0000000140004400 f i struct_reflection.obj
+ 0001:00003490       ?_Change_array@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXQEAUlen_string@@_K1@Z 0000000140004490 f i struct_reflection.obj
+ 0001:000035a0       ?_Clrcont@_Iterator_base12@std@@QEAAXXZ 00000001400045a0 f i struct_reflection.obj
+ 0001:000035c0       ?_Destroy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@0@Z 00000001400045c0 f i struct_reflection.obj
+ 0001:00003600       ?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 0000000140004600 f i struct_reflection.obj
+ 0001:00003670       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 0000000140004670 f i struct_reflection.obj
+ 0001:00003690       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 0000000140004690 f i struct_reflection.obj
+ 0001:000036b0       ?_Get_first@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAAAEAV?$allocator@Ulen_string@@@2@XZ 00000001400046b0 f i struct_reflection.obj
+ 0001:000036c0       ?_Get_first@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEBAAEBV?$allocator@Ulen_string@@@2@XZ 00000001400046c0 f i struct_reflection.obj
+ 0001:000036d0       ?_Get_second@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 00000001400046d0 f i struct_reflection.obj
+ 0001:000036e0       ?_Get_second@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 00000001400046e0 f i struct_reflection.obj
+ 0001:000036f0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$allocator@Ulen_string@@@2@XZ 00000001400046f0 f i struct_reflection.obj
+ 0001:00003710       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$allocator@Ulen_string@@@2@XZ 0000000140004710 f i struct_reflection.obj
+ 0001:00003730       ?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 0000000140004730 f i struct_reflection.obj
+ 0001:00003750       ?_Getpfirst@_Container_base12@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 0000000140004750 f i struct_reflection.obj
+ 0001:00003790       ?_Getpnext@_Iterator_base12@std@@QEAAPEAPEAU12@XZ 0000000140004790 f i struct_reflection.obj
+ 0001:000037a0       ?_Has_unused_capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_NXZ 00000001400047a0 f i struct_reflection.obj
+ 0001:000037f0       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 00000001400047f0 f i struct_reflection.obj
+ 0001:00003810       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 0000000140004810 f i struct_reflection.obj
+ 0001:00003830       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 0000000140004830 f i struct_reflection.obj
+ 0001:00003850       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 0000000140004850 f i struct_reflection.obj
+ 0001:00003870       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 0000000140004870 f i struct_reflection.obj
+ 0001:00003890       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 0000000140004890 f i struct_reflection.obj
+ 0001:000038b0       ?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAU_Container_proxy@2@XZ 00000001400048b0 f i struct_reflection.obj
+ 0001:000038d0       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 00000001400048d0 f i struct_reflection.obj
+ 0001:000038f0       ?_Orphan_all@_Container_base12@std@@QEAAXXZ 00000001400048f0 f i struct_reflection.obj
+ 0001:00003990       ?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 0000000140004990 f i struct_reflection.obj
+ 0001:00003a50       ?_Tidy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXXZ 0000000140004a50 f i struct_reflection.obj
+ 0001:00003b20       ?_Umove@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU3@00@Z 0000000140004b20 f i struct_reflection.obj
+ 0001:00003b60       ?_Umove_if_noexcept1@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00U?$integral_constant@_N$00@2@@Z 0000000140004b60 f i struct_reflection.obj
+ 0001:00003ba0       ?_Umove_if_noexcept@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00@Z 0000000140004ba0 f i struct_reflection.obj
+ 0001:00003c00       ?_Xlength@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@CAXXZ 0000000140004c00 f i struct_reflection.obj
+ 0001:00003c20       ?allocate@?$allocator@U_Container_proxy@std@@@std@@QEAAPEAU_Container_proxy@2@_K@Z 0000000140004c20 f i struct_reflection.obj
+ 0001:00003c50       ?allocate@?$allocator@Ulen_string@@@std@@QEAAPEAUlen_string@@_K@Z 0000000140004c50 f i struct_reflection.obj
+ 0001:00003c80       ?capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 0000000140004c80 f i struct_reflection.obj
+ 0001:00003cc0       ?deallocate@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@2@QEAU_Container_proxy@2@_K@Z 0000000140004cc0 f i struct_reflection.obj
+ 0001:00003cf0       ?deallocate@?$allocator@Ulen_string@@@std@@QEAAXQEAUlen_string@@_K@Z 0000000140004cf0 f i struct_reflection.obj
+ 0001:00003d20       ?max@?$numeric_limits@_J@std@@SA_JXZ 0000000140004d20 f i struct_reflection.obj
+ 0001:00003d30       ?max_size@?$_Default_allocator_traits@V?$allocator@Ulen_string@@@std@@@std@@SA_KAEBV?$allocator@Ulen_string@@@2@@Z 0000000140004d30 f i struct_reflection.obj
+ 0001:00003d40       ?max_size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 0000000140004d40 f i struct_reflection.obj
+ 0001:00003d90       ?push_back@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 0000000140004d90 f i struct_reflection.obj
+ 0001:00003dc0       ?select_on_container_copy_construction@?$_Default_allocator_traits@V?$allocator@Ulen_string@@@std@@@std@@SA?AV?$allocator@Ulen_string@@@2@AEBV32@@Z 0000000140004dc0 f i struct_reflection.obj
+ 0001:00003dd0       ?size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 0000000140004dd0 f i struct_reflection.obj
+ 0001:00003e10       __local_stdio_printf_options 0000000140004e10 f i struct_reflection.obj
+ 0001:00003e20       _vfprintf_l                0000000140004e20 f i struct_reflection.obj
+ 0001:00003e70       _vsnprintf_l               0000000140004e70 f i struct_reflection.obj
+ 0001:00003ef0       _vsprintf_l                0000000140004ef0 f i struct_reflection.obj
+ 0001:00003f40       printf                     0000000140004f40 f i struct_reflection.obj
+ 0001:00003fa0       sprintf                    0000000140004fa0 f i struct_reflection.obj
+ 0001:00003fef       ?_Xlength_error@std@@YAXPEBD@Z 0000000140004fef f   msvcprtd:MSVCP140D.dll
+ 0001:00004000       ??2@YAPEAX_K@Z             0000000140005000 f   MSVCRTD:new_scalar.obj
+ 0001:00004050       ??3@YAXPEAX_K@Z            0000000140005050 f   MSVCRTD:delete_scalar_size.obj
+ 0001:00004070       __GSHandlerCheck_EH        0000000140005070 f   MSVCRTD:gshandlereh.obj
+ 0001:00004130       __security_check_cookie    0000000140005130 f   MSVCRTD:_amdsecgs_.obj
+ 0001:00004410       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000140005410 f i MSVCRTD:exe_main.obj
+ 0001:00004430       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000140005430 f i MSVCRTD:exe_main.obj
+ 0001:00004480       ?set_app_type@__scrt_main_policy@@SAXXZ 0000000140005480 f i MSVCRTD:exe_main.obj
+ 0001:000044a0       ?set_commode@__scrt_file_policy@@SAXXZ 00000001400054a0 f i MSVCRTD:exe_main.obj
+ 0001:000044c0       ?set_fmode@__scrt_file_policy@@SAXXZ 00000001400054c0 f i MSVCRTD:exe_main.obj
+ 0001:000044e0       mainCRTStartup             00000001400054e0 f   MSVCRTD:exe_main.obj
+ 0001:000044f0       ??0bad_alloc@std@@AEAA@QEBD@Z 00000001400054f0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004530       ??0bad_alloc@std@@QEAA@AEBV01@@Z 0000000140005530 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004570       ??0bad_alloc@std@@QEAA@XZ  0000000140005570 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000045b0       ??0bad_array_new_length@std@@QEAA@AEBV01@@Z 00000001400055b0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000045f0       ??0bad_array_new_length@std@@QEAA@XZ 00000001400055f0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004630       ??0exception@std@@QEAA@AEBV01@@Z 0000000140005630 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004690       ??0exception@std@@QEAA@QEBDH@Z 0000000140005690 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000046e0       ??1bad_alloc@std@@UEAA@XZ  00000001400056e0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004700       ??1bad_array_new_length@std@@UEAA@XZ 0000000140005700 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004720       ??1exception@std@@UEAA@XZ  0000000140005720 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004750       ??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140005750 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004750       ??_Ebad_alloc@std@@UEAAPEAXI@Z 0000000140005750 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004790       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000140005790 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004790       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 0000000140005790 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000047d0       ??_Gexception@std@@UEAAPEAXI@Z 00000001400057d0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000047d0       ??_Eexception@std@@UEAAPEAXI@Z 00000001400057d0 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:00004810       ?__scrt_throw_std_bad_alloc@@YAXXZ 0000000140005810 f   MSVCRTD:throw_bad_alloc.obj
+ 0001:00004840       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 0000000140005840 f   MSVCRTD:throw_bad_alloc.obj
+ 0001:00004870       ?what@exception@std@@UEBAPEBDXZ 0000000140005870 f i MSVCRTD:throw_bad_alloc.obj
+ 0001:000048b0       ??3@YAXPEAX@Z              00000001400058b0 f   MSVCRTD:delete_scalar.obj
+ 0001:000048d0       __GSHandlerCheck           00000001400058d0 f   MSVCRTD:_gshandler_.obj
+ 0001:00004910       __GSHandlerCheckCommon     0000000140005910 f   MSVCRTD:_gshandler_.obj
+ 0001:00004a10       __raise_securityfailure    0000000140005a10 f   MSVCRTD:gs_report.obj
+ 0001:00004a50       __report_gsfailure         0000000140005a50 f   MSVCRTD:gs_report.obj
+ 0001:00004bf0       ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000140005bf0 f i MSVCRTD:utility.obj
+ 0001:00004c30       ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000140005c30 f i MSVCRTD:utility.obj
+ 0001:00004c70       ?__crt_rotate_pointer_value@@YA_K_KH@Z 0000000140005c70 f i MSVCRTD:utility.obj
+ 0001:00004df0       NtCurrentTeb               0000000140005df0 f i MSVCRTD:utility.obj
+ 0001:00004e00       __scrt_acquire_startup_lock 0000000140005e00 f   MSVCRTD:utility.obj
+ 0001:00004e70       __scrt_initialize_crt      0000000140005e70 f   MSVCRTD:utility.obj
+ 0001:00004ec0       __scrt_initialize_onexit_tables 0000000140005ec0 f   MSVCRTD:utility.obj
+ 0001:00004fd0       __scrt_is_nonwritable_in_current_image 0000000140005fd0 f   MSVCRTD:utility.obj
+ 0001:00005060       __scrt_release_startup_lock 0000000140006060 f   MSVCRTD:utility.obj
+ 0001:00005090       __scrt_uninitialize_crt    0000000140006090 f   MSVCRTD:utility.obj
+ 0001:000050d0       _onexit                    00000001400060d0 f   MSVCRTD:utility.obj
+ 0001:00005160       atexit                     0000000140006160 f   MSVCRTD:utility.obj
+ 0001:00005260       __security_init_cookie     0000000140006260 f   MSVCRTD:gs_support.obj
+ 0001:000052e0       _matherr                   00000001400062e0 f   MSVCRTD:matherr.obj
+ 0001:000052f0       _get_startup_argv_mode     00000001400062f0 f   MSVCRTD:argv_mode.obj
+ 0001:00005300       _get_startup_commit_mode   0000000140006300 f   MSVCRTD:commit_mode.obj
+ 0001:00005310       _get_startup_file_mode     0000000140006310 f   MSVCRTD:file_mode.obj
+ 0001:00005320       _get_startup_new_mode      0000000140006320 f   MSVCRTD:new_mode.obj
+ 0001:00005330       _get_startup_thread_locale_mode 0000000140006330 f   MSVCRTD:thread_locale.obj
+ 0001:00005340       ?__scrt_initialize_type_info@@YAXXZ 0000000140006340 f   MSVCRTD:tncleanup.obj
+ 0001:00005360       _should_initialize_environment 0000000140006360 f   MSVCRTD:env_mode.obj
+ 0001:00005370       _initialize_invalid_parameter_handler 0000000140006370 f   MSVCRTD:invalid_parameter_handler.obj
+ 0001:00005380       _initialize_denormal_control 0000000140006380 f   MSVCRTD:denormal_control.obj
+ 0001:00005390       __local_stdio_scanf_options 0000000140006390 f i MSVCRTD:default_local_stdio_options.obj
+ 0001:000053a0       __scrt_initialize_default_local_stdio_options 00000001400063a0 f   MSVCRTD:default_local_stdio_options.obj
+ 0001:000053f0       __scrt_is_user_matherr_present 00000001400063f0 f   MSVCRTD:matherr_detection.obj
+ 0001:00005420       __scrt_get_dyn_tls_init_callback 0000000140006420 f   MSVCRTD:dyn_tls_init.obj
+ 0001:00005430       __scrt_get_dyn_tls_dtor_callback 0000000140006430 f   MSVCRTD:dyn_tls_dtor.obj
+ 0001:00005440       __crt_debugger_hook        0000000140006440 f   MSVCRTD:utility_desktop.obj
+ 0001:00005450       __scrt_fastfail            0000000140006450 f   MSVCRTD:utility_desktop.obj
+ 0001:000055f0       __scrt_initialize_mta      00000001400065f0 f   MSVCRTD:utility_desktop.obj
+ 0001:00005600       __scrt_initialize_winrt    0000000140006600 f   MSVCRTD:utility_desktop.obj
+ 0001:00005610       __scrt_is_managed_app      0000000140006610 f   MSVCRTD:utility_desktop.obj
+ 0001:000056c0       __scrt_set_unhandled_exception_filter 00000001400066c0 f   MSVCRTD:utility_desktop.obj
+ 0001:000056e0       __scrt_stub_for_initialize_mta 00000001400066e0 f   MSVCRTD:utility_desktop.obj
+ 0001:000056e0       __scrt_exe_initialize_mta  00000001400066e0 f   MSVCRTD:utility_desktop.obj
+ 0001:000056f0       __scrt_unhandled_exception_filter 00000001400066f0 f   MSVCRTD:utility_desktop.obj
+ 0001:00005770       _RTC_Initialize            0000000140006770 f   MSVCRTD:_initsect_.obj
+ 0001:000057c0       _RTC_Terminate             00000001400067c0 f   MSVCRTD:_initsect_.obj
+ 0001:00005810       _guard_check_icall_nop     0000000140006810 f i MSVCRTD:guard_support.obj
+ 0001:00005820       ??1type_info@@UEAA@XZ      0000000140006820 f   MSVCRTD:std_type_info_static.obj
+ 0001:00005840       ??_Gtype_info@@UEAAPEAXI@Z 0000000140006840 f i MSVCRTD:std_type_info_static.obj
+ 0001:00005840       ??_Etype_info@@UEAAPEAXI@Z 0000000140006840 f i MSVCRTD:std_type_info_static.obj
+ 0001:00005880       __isa_available_init       0000000140006880 f   MSVCRTD:_cpu_disp_.obj
+ 0001:00005bf0       __scrt_is_ucrt_dll_in_use  0000000140006bf0 f   MSVCRTD:ucrt_detection.obj
+ 0001:00005c20       IsProcessorFeaturePresent  0000000140006c20 f   kernel32:KERNEL32.dll
+ 0001:00005c26       _CxxThrowException         0000000140006c26 f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c2c       __CxxFrameHandler3         0000000140006c2c f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c32       memmove                    0000000140006c32 f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c38       __C_specific_handler       0000000140006c38 f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c3e       __std_exception_copy       0000000140006c3e f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c44       __std_exception_destroy    0000000140006c44 f   vcruntimed:VCRUNTIME140D.dll
+ 0001:00005c4a       malloc                     0000000140006c4a f   ucrtd:ucrtbased.dll
+ 0001:00005c50       _callnewh                  0000000140006c50 f   ucrtd:ucrtbased.dll
+ 0001:00005c56       _seh_filter_exe            0000000140006c56 f   ucrtd:ucrtbased.dll
+ 0001:00005c5c       _set_app_type              0000000140006c5c f   ucrtd:ucrtbased.dll
+ 0001:00005c62       __setusermatherr           0000000140006c62 f   ucrtd:ucrtbased.dll
+ 0001:00005c68       _configure_narrow_argv     0000000140006c68 f   ucrtd:ucrtbased.dll
+ 0001:00005c6e       _initialize_narrow_environment 0000000140006c6e f   ucrtd:ucrtbased.dll
+ 0001:00005c74       _get_initial_narrow_environment 0000000140006c74 f   ucrtd:ucrtbased.dll
+ 0001:00005c7a       _initterm                  0000000140006c7a f   ucrtd:ucrtbased.dll
+ 0001:00005c80       _initterm_e                0000000140006c80 f   ucrtd:ucrtbased.dll
+ 0001:00005c86       exit                       0000000140006c86 f   ucrtd:ucrtbased.dll
+ 0001:00005c8c       _exit                      0000000140006c8c f   ucrtd:ucrtbased.dll
+ 0001:00005c92       _set_fmode                 0000000140006c92 f   ucrtd:ucrtbased.dll
+ 0001:00005c98       __p___argc                 0000000140006c98 f   ucrtd:ucrtbased.dll
+ 0001:00005c9e       __p___argv                 0000000140006c9e f   ucrtd:ucrtbased.dll
+ 0001:00005ca4       _cexit                     0000000140006ca4 f   ucrtd:ucrtbased.dll
+ 0001:00005caa       _c_exit                    0000000140006caa f   ucrtd:ucrtbased.dll
+ 0001:00005cb0       _register_thread_local_exe_atexit_callback 0000000140006cb0 f   ucrtd:ucrtbased.dll
+ 0001:00005cb6       _configthreadlocale        0000000140006cb6 f   ucrtd:ucrtbased.dll
+ 0001:00005cbc       _set_new_mode              0000000140006cbc f   ucrtd:ucrtbased.dll
+ 0001:00005cc2       __p__commode               0000000140006cc2 f   ucrtd:ucrtbased.dll
+ 0001:00005cc8       _free_dbg                  0000000140006cc8 f   ucrtd:ucrtbased.dll
+ 0001:00005cce       _initialize_onexit_table   0000000140006cce f   ucrtd:ucrtbased.dll
+ 0001:00005cd4       _register_onexit_function  0000000140006cd4 f   ucrtd:ucrtbased.dll
+ 0001:00005cda       _crt_atexit                0000000140006cda f   ucrtd:ucrtbased.dll
+ 0001:00005ce0       terminate                  0000000140006ce0 f   ucrtd:ucrtbased.dll
+ 0001:00005cf0       __scrt_stub_for_acrt_initialize 0000000140006cf0 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005cf0       __vcrt_initialize          0000000140006cf0 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005cf0       __acrt_initialize          0000000140006cf0 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005d00       __acrt_uninitialize        0000000140006d00 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005d00       __vcrt_uninitialize        0000000140006d00 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005d00       __scrt_stub_for_acrt_uninitialize 0000000140006d00 f   MSVCRTD:ucrt_stubs.obj
+ 0001:00005d20       _guard_dispatch_icall_nop  0000000140006d20 f   MSVCRTD:_guard_dispatch_.obj
+ 0002:00000000       __imp_GetCurrentThreadId   0000000140007000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_IsDebuggerPresent    0000000140007008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_InitializeSListHead  0000000140007010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlCaptureContext    0000000140007018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_RtlLookupFunctionEntry 0000000140007020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_RtlVirtualUnwind     0000000140007028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_UnhandledExceptionFilter 0000000140007030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_SetUnhandledExceptionFilter 0000000140007038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetCurrentProcess    0000000140007040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_TerminateProcess     0000000140007048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsProcessorFeaturePresent 0000000140007050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_QueryPerformanceCounter 0000000140007058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcessId  0000000140007060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_GetSystemTimeAsFileTime 0000000140007068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_GetModuleHandleW     0000000140007070     kernel32:KERNEL32.dll
+ 0002:00000078       \177KERNEL32_NULL_THUNK_DATA 0000000140007078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_??1_Lockit@std@@QEAA@XZ 0000000140007080     msvcprtd:MSVCP140D.dll
+ 0002:00000088       __imp_?_Xlength_error@std@@YAXPEBD@Z 0000000140007088     msvcprtd:MSVCP140D.dll
+ 0002:00000090       __imp_??0_Lockit@std@@QEAA@H@Z 0000000140007090     msvcprtd:MSVCP140D.dll
+ 0002:00000098       \177MSVCP140D_NULL_THUNK_DATA 0000000140007098     msvcprtd:MSVCP140D.dll
+ 0002:000000a0       __imp__CxxThrowException   00000001400070a0     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000a8       __imp___CxxFrameHandler3   00000001400070a8     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000b0       __imp_memmove              00000001400070b0     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000b8       __imp___C_specific_handler 00000001400070b8     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000c0       __imp___std_exception_copy 00000001400070c0     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000c8       __imp___std_exception_destroy 00000001400070c8     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000d0       \177VCRUNTIME140D_NULL_THUNK_DATA 00000001400070d0     vcruntimed:VCRUNTIME140D.dll
+ 0002:000000d8       __imp__invalid_parameter   00000001400070d8     ucrtd:ucrtbased.dll
+ 0002:000000e0       __imp___acrt_iob_func      00000001400070e0     ucrtd:ucrtbased.dll
+ 0002:000000e8       __imp_fclose               00000001400070e8     ucrtd:ucrtbased.dll
+ 0002:000000f0       __imp_fopen                00000001400070f0     ucrtd:ucrtbased.dll
+ 0002:000000f8       __imp_fread                00000001400070f8     ucrtd:ucrtbased.dll
+ 0002:00000100       __imp_fseek                0000000140007100     ucrtd:ucrtbased.dll
+ 0002:00000108       __imp_ftell                0000000140007108     ucrtd:ucrtbased.dll
+ 0002:00000110       __imp_fwrite               0000000140007110     ucrtd:ucrtbased.dll
+ 0002:00000118       __imp___stdio_common_vfprintf 0000000140007118     ucrtd:ucrtbased.dll
+ 0002:00000120       __imp___stdio_common_vsprintf 0000000140007120     ucrtd:ucrtbased.dll
+ 0002:00000128       __imp_malloc               0000000140007128     ucrtd:ucrtbased.dll
+ 0002:00000130       __imp_realloc              0000000140007130     ucrtd:ucrtbased.dll
+ 0002:00000138       __imp__CrtDbgReport        0000000140007138     ucrtd:ucrtbased.dll
+ 0002:00000140       __imp__callnewh            0000000140007140     ucrtd:ucrtbased.dll
+ 0002:00000148       __imp__seh_filter_exe      0000000140007148     ucrtd:ucrtbased.dll
+ 0002:00000150       __imp__set_app_type        0000000140007150     ucrtd:ucrtbased.dll
+ 0002:00000158       __imp___setusermatherr     0000000140007158     ucrtd:ucrtbased.dll
+ 0002:00000160       __imp__configure_narrow_argv 0000000140007160     ucrtd:ucrtbased.dll
+ 0002:00000168       __imp__initialize_narrow_environment 0000000140007168     ucrtd:ucrtbased.dll
+ 0002:00000170       __imp__get_initial_narrow_environment 0000000140007170     ucrtd:ucrtbased.dll
+ 0002:00000178       __imp__initterm            0000000140007178     ucrtd:ucrtbased.dll
+ 0002:00000180       __imp__initterm_e          0000000140007180     ucrtd:ucrtbased.dll
+ 0002:00000188       __imp_exit                 0000000140007188     ucrtd:ucrtbased.dll
+ 0002:00000190       __imp__exit                0000000140007190     ucrtd:ucrtbased.dll
+ 0002:00000198       __imp__set_fmode           0000000140007198     ucrtd:ucrtbased.dll
+ 0002:000001a0       __imp___p___argc           00000001400071a0     ucrtd:ucrtbased.dll
+ 0002:000001a8       __imp___p___argv           00000001400071a8     ucrtd:ucrtbased.dll
+ 0002:000001b0       __imp__cexit               00000001400071b0     ucrtd:ucrtbased.dll
+ 0002:000001b8       __imp__c_exit              00000001400071b8     ucrtd:ucrtbased.dll
+ 0002:000001c0       __imp__register_thread_local_exe_atexit_callback 00000001400071c0     ucrtd:ucrtbased.dll
+ 0002:000001c8       __imp__configthreadlocale  00000001400071c8     ucrtd:ucrtbased.dll
+ 0002:000001d0       __imp__set_new_mode        00000001400071d0     ucrtd:ucrtbased.dll
+ 0002:000001d8       __imp___p__commode         00000001400071d8     ucrtd:ucrtbased.dll
+ 0002:000001e0       __imp__free_dbg            00000001400071e0     ucrtd:ucrtbased.dll
+ 0002:000001e8       __imp__initialize_onexit_table 00000001400071e8     ucrtd:ucrtbased.dll
+ 0002:000001f0       __imp__register_onexit_function 00000001400071f0     ucrtd:ucrtbased.dll
+ 0002:000001f8       __imp__crt_atexit          00000001400071f8     ucrtd:ucrtbased.dll
+ 0002:00000200       __imp_terminate            0000000140007200     ucrtd:ucrtbased.dll
+ 0002:00000208       \177ucrtbased_NULL_THUNK_DATA 0000000140007208     ucrtd:ucrtbased.dll
+ 0002:00000210       __guard_check_icall_fptr   0000000140007210     MSVCRTD:guard_support.obj
+ 0002:00000218       __guard_dispatch_icall_fptr 0000000140007218     MSVCRTD:guard_support.obj
+ 0002:00000220       __xc_a                     0000000140007220     MSVCRTD:initializers.obj
+ 0002:00000230       __xc_z                     0000000140007230     MSVCRTD:initializers.obj
+ 0002:00000238       __xi_a                     0000000140007238     MSVCRTD:initializers.obj
+ 0002:00000250       __xi_z                     0000000140007250     MSVCRTD:initializers.obj
+ 0002:00000258       __xp_a                     0000000140007258     MSVCRTD:initializers.obj
+ 0002:00000260       __xp_z                     0000000140007260     MSVCRTD:initializers.obj
+ 0002:00000268       __xt_a                     0000000140007268     MSVCRTD:initializers.obj
+ 0002:00000270       __xt_z                     0000000140007270     MSVCRTD:initializers.obj
+ 0002:000015e8       ??_C@_0BB@FCMFBGOM@invalid?5argument@ 00000001400085e8     struct_reflection.obj
+ 0002:000015fc       ??_C@_02DKCKIIND@?$CFs@    00000001400085fc     struct_reflection.obj
+ 0002:00001600       ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe@ 0000000140008600     struct_reflection.obj
+ 0002:00001630       ??_C@_0GJ@CAJJPMGE@c?3?2program?5files?5?$CIx86?$CJ?2microsof@ 0000000140008630     struct_reflection.obj
+ 0002:000016a0       ??_C@_1NC@ICJKIMIP@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe@ 00000001400086a0     struct_reflection.obj
+ 0002:00001780       ??_C@_1EK@NIFDJFDG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAA?$AAd?$AAj?$AAu?$AAs?$AAt?$AA_?$AAm?$AAa@ 0000000140008780     struct_reflection.obj
+ 0002:000017d0       ??_C@_0BO@PFKOHNJC@vector?5subscript?5out?5of?5range@ 00000001400087d0     struct_reflection.obj
+ 0002:000017f0       ??_C@_0GH@PHBFPDPI@c?3?2program?5files?5?$CIx86?$CJ?2microsof@ 00000001400087f0     struct_reflection.obj
+ 0002:00001860       ??_C@_1MO@GGNBFPEH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe@ 0000000140008860     struct_reflection.obj
+ 0002:00001930       ??_C@_1KK@ILCNPNIE@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?$DM?$AAs?$AAt?$AAr@ 0000000140008930     struct_reflection.obj
+ 0002:000019e0       ??_C@_1EA@LEKOKFNB@?$AA?$CC?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAs?$AAu?$AAb?$AAs?$AAc?$AAr?$AAi@ 00000001400089e0     struct_reflection.obj
+ 0002:00001a20       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@ 0000000140008a20     struct_reflection.obj
+ 0002:00001a40       ??_C@_1EO@GFNCMDLA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe?$AA_@ 0000000140008a40     struct_reflection.obj
+ 0002:00001a98       ??_7exception@std@@6B@     0000000140008a98     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001aa8       ??_C@_0BC@EOODALEL@Unknown?5exception@ 0000000140008aa8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001ac8       ??_7bad_alloc@std@@6B@     0000000140008ac8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001ad8       ??_C@_0P@GHFPNOJB@bad?5allocation@ 0000000140008ad8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001af0       ??_7bad_array_new_length@std@@6B@ 0000000140008af0     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001b00       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 0000000140008b00     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001b30       ??_7type_info@@6B@         0000000140008b30     MSVCRTD:std_type_info_static.obj
+ 0002:00001b80       _load_config_used          0000000140008b80     MSVCRTD:loadcfg.obj
+ 0002:00001c80       ??_R4exception@std@@6B@    0000000140008c80     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001ca8       ??_R3exception@std@@8      0000000140008ca8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001cc0       ??_R2exception@std@@8      0000000140008cc0     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001cd0       ??_R1A@?0A@EA@exception@std@@8 0000000140008cd0     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001cf8       ??_R4bad_alloc@std@@6B@    0000000140008cf8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001d20       ??_R3bad_alloc@std@@8      0000000140008d20     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001d38       ??_R2bad_alloc@std@@8      0000000140008d38     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001d50       ??_R1A@?0A@EA@bad_alloc@std@@8 0000000140008d50     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001d78       ??_R4bad_array_new_length@std@@6B@ 0000000140008d78     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001da0       ??_R3bad_array_new_length@std@@8 0000000140008da0     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001db8       ??_R2bad_array_new_length@std@@8 0000000140008db8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001dd8       ??_R1A@?0A@EA@bad_array_new_length@std@@8 0000000140008dd8     MSVCRTD:throw_bad_alloc.obj
+ 0002:00001e00       ??_R4type_info@@6B@        0000000140008e00     MSVCRTD:std_type_info_static.obj
+ 0002:00001e28       ??_R3type_info@@8          0000000140008e28     MSVCRTD:std_type_info_static.obj
+ 0002:00001e40       ??_R2type_info@@8          0000000140008e40     MSVCRTD:std_type_info_static.obj
+ 0002:00001e50       ??_R1A@?0A@EA@type_info@@8 0000000140008e50     MSVCRTD:std_type_info_static.obj
+ 0002:00002140       __rtc_iaa                  0000000140009140     MSVCRTD:_initsect_.obj
+ 0002:00002148       __rtc_izz                  0000000140009148     MSVCRTD:_initsect_.obj
+ 0002:00002150       __rtc_taa                  0000000140009150     MSVCRTD:_initsect_.obj
+ 0002:00002158       __rtc_tzz                  0000000140009158     MSVCRTD:_initsect_.obj
+ 0002:00002918       _TI2?AVbad_alloc@std@@     0000000140009918     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002938       _CTA2?AVbad_alloc@std@@    0000000140009938     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002950       _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QEAA@AEBV01@@Z24 0000000140009950     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002978       _CT??_R0?AVexception@std@@@8??0exception@std@@QEAA@AEBV01@@Z24 0000000140009978     MSVCRTD:throw_bad_alloc.obj
+ 0002:000029a0       _TI3?AVbad_array_new_length@std@@ 00000001400099a0     MSVCRTD:throw_bad_alloc.obj
+ 0002:000029c0       _CTA3?AVbad_array_new_length@std@@ 00000001400099c0     MSVCRTD:throw_bad_alloc.obj
+ 0002:000029e0       _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QEAA@AEBV01@@Z24 00000001400099e0     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002a04       __IMPORT_DESCRIPTOR_MSVCP140D 0000000140009a04     msvcprtd:MSVCP140D.dll
+ 0002:00002a18       __IMPORT_DESCRIPTOR_KERNEL32 0000000140009a18     kernel32:KERNEL32.dll
+ 0002:00002a2c       __IMPORT_DESCRIPTOR_VCRUNTIME140D 0000000140009a2c     vcruntimed:VCRUNTIME140D.dll
+ 0002:00002a40       __IMPORT_DESCRIPTOR_ucrtbased 0000000140009a40     ucrtd:ucrtbased.dll
+ 0002:00002a54       __NULL_IMPORT_DESCRIPTOR   0000000140009a54     msvcprtd:MSVCP140D.dll
+ 0003:00000000       __security_cookie_complement 000000014000b000     MSVCRTD:gs_cookie.obj
+ 0003:00000008       __security_cookie          000000014000b008     MSVCRTD:gs_cookie.obj
+ 0003:00000010       __scrt_native_dllmain_reason 000000014000b010     MSVCRTD:utility.obj
+ 0003:00000014       __scrt_default_matherr     000000014000b014     MSVCRTD:matherr.obj
+ 0003:00000018       __isa_available            000000014000b018     MSVCRTD:_cpu_disp_.obj
+ 0003:0000001c       __isa_enabled              000000014000b01c     MSVCRTD:_cpu_disp_.obj
+ 0003:00000020       __memcpy_nt_iters          000000014000b020     MSVCRTD:_cpu_disp_.obj
+ 0003:00000030       __scrt_ucrt_dll_is_in_use  000000014000b030     MSVCRTD:ucrt_stubs.obj
+ 0003:00000038       ??_R0?AVbad_alloc@std@@@8  000000014000b038     MSVCRTD:throw_bad_alloc.obj
+ 0003:00000060       ??_R0?AVexception@std@@@8  000000014000b060     MSVCRTD:throw_bad_alloc.obj
+ 0003:00000088       ??_R0?AVbad_array_new_length@std@@@8 000000014000b088     MSVCRTD:throw_bad_alloc.obj
+ 0003:000000b8       ??_R0?AVtype_info@@@8      000000014000b0b8     MSVCRTD:std_type_info_static.obj
+ 0003:000000e0       ?reflection_func_name@@3Ulen_string@@A 000000014000b0e0     struct_reflection.obj
+ 0003:000000f0       ?f_name_no_dirs@@3Ulen_string@@A 000000014000b0f0     struct_reflection.obj
+ 0003:00000100       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000014000b100     struct_reflection.obj
+ 0003:00000680       __scrt_current_native_startup_state 000000014000b680     MSVCRTD:utility.obj
+ 0003:00000688       __scrt_native_startup_lock 000000014000b688     MSVCRTD:utility.obj
+ 0003:000006d0       ?__type_info_root_node@@3U__type_info_node@@A 000000014000b6d0     MSVCRTD:tncleanup.obj
+ 0003:000006e0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000014000b6e0     MSVCRTD:default_local_stdio_options.obj
+ 0003:000006e8       __scrt_debugger_hook_flag  000000014000b6e8     MSVCRTD:utility_desktop.obj
+ 0003:000006ec       __favor                    000000014000b6ec     MSVCRTD:_cpu_disp_.obj
+ 0003:000006f0       __dyn_tls_dtor_callback    000000014000b6f0     <common>
+ 0003:000006f8       __dyn_tls_init_callback    000000014000b6f8     <common>
+
+ entry point at        0001:000044e0
+
+ Static symbols
+
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     ucrtd:ucrtbased.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     msvcprtd:MSVCP140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     msvcprtd:MSVCP140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     msvcprtd:MSVCP140D.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:ffff2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0001:00000060       ?isEOL@@YAID@Z             0000000140001060 f   struct_reflection.obj
+ 0001:000000a0       ?isWhitespace@@YAID@Z      00000001400010a0 f   struct_reflection.obj
+ 0001:000000f0       ?eatAllWhitespace@@YAXPEAUTokenizer@@@Z 00000001400010f0 f   struct_reflection.obj
+ 0001:000002a0       ?isAlpha@@YAID@Z           00000001400012a0 f   struct_reflection.obj
+ 0001:000002f0       ?isNumeric@@YAID@Z         00000001400012f0 f   struct_reflection.obj
+ 0001:00000a7c       $LN50                      0000000140001a7c     struct_reflection.obj
+ 0001:00000ac8       $LN49                      0000000140001ac8     struct_reflection.obj
+ 0001:00000bb0       ?tokenEquals@@YAIAEBUToken@@0@Z 0000000140001bb0 f   struct_reflection.obj
+ 0001:00000c60       ?token@@YA?AUToken@@W4TokenType@@IPEAD@Z 0000000140001c60 f   struct_reflection.obj
+ 0001:00000cc0       ?is_cpp_or_h_file@@YAIPEAD@Z 0000000140001cc0 f   struct_reflection.obj
+ 0001:00000d80       ?find_next_token_in_file@@YAIPEAPEADUToken@@@Z 0000000140001d80 f   struct_reflection.obj
+ 0001:00000eb0       ?find_next_token@@YAIPEAUTokenizer@@UToken@@@Z 0000000140001eb0 f   struct_reflection.obj
+ 0001:00000fb0       ?update_brace_counter@@YAHUToken@@@Z 0000000140001fb0 f   struct_reflection.obj
+ 0001:00001060       ?eat_to_next_whitespace@@YAIPEAUTokenizer@@@Z 0000000140002060 f   struct_reflection.obj
+ 0001:000010d0       ?l_string@@YA?AUlen_string@@I@Z 00000001400020d0 f   struct_reflection.obj
+ 0001:00001150       ?reallocate_len_string@@YAXPEAUlen_string@@I@Z 0000000140002150 f   struct_reflection.obj
+ 0001:000011a0       ?append_to_len_string@@YAXPEAUlen_string@@PEADI@Z 00000001400021a0 f   struct_reflection.obj
+ 0001:00001270       ?append_to_len_string@@YAXPEAUlen_string@@PEAD@Z 0000000140002270 f   struct_reflection.obj
+ 0001:00001370       ?l_string@@YA?AUlen_string@@PEAD@Z 0000000140002370 f   struct_reflection.obj
+ 0001:00001430       ?l_string@@YA?AUlen_string@@PEADI@Z 0000000140002430 f   struct_reflection.obj
+ 0001:000014d0       ?find_first_occurence_of_char@@YAIAEBUlen_string@@D@Z 00000001400024d0 f   struct_reflection.obj
+ 0001:00001530       ?strip_extension@@YAXPEAUlen_string@@@Z 0000000140002530 f   struct_reflection.obj
+ 0001:00001580       ?read_entire_file_text@@YAPEADPEADPEA_K@Z 0000000140002580 f   struct_reflection.obj
+ 0001:00001670       ?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 0000000140002670 f   struct_reflection.obj
+ 0001:00004120       $$000000                   0000000140005120     MSVCRTD:_amdsecgs_.obj
+ 0001:00004160       ?pre_c_initialization@@YAHXZ 0000000140005160 f   MSVCRTD:exe_main.obj
+ 0001:00004220       ?post_pgo_initialization@@YAHXZ 0000000140005220 f   MSVCRTD:exe_main.obj
+ 0001:00004230       ?pre_cpp_initialization@@YAXXZ 0000000140005230 f   MSVCRTD:exe_main.obj
+ 0001:00004250       ?__scrt_common_main@@YAHXZ 0000000140005250 f   MSVCRTD:exe_main.obj
+ 0001:00004270       ?__scrt_common_main_seh@@YAHXZ 0000000140005270 f   MSVCRTD:exe_main.obj
+ 0001:00004440       ?invoke_main@@YAHXZ        0000000140005440 f   MSVCRTD:exe_main.obj
+ 0001:00004b30       capture_previous_context   0000000140005b30 f   MSVCRTD:gs_report.obj
+ 0001:00004c90       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000140005c90 f   MSVCRTD:utility.obj
+ 0001:00004d60       ?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000140005d60 f   MSVCRTD:utility.obj
+ 0001:000051a0       __get_entropy              00000001400061a0 f   MSVCRTD:gs_support.obj
+ 0001:00005d10       $$000000                   0000000140006d10     MSVCRTD:_guard_dispatch_.obj
+ 0001:00005d30       ?dtor$0@?0??append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z@4HA 0000000140006d30 f   struct_reflection.obj
+ 0001:00005d4b       main$dtor$0                0000000140006d4b f   struct_reflection.obj
+ 0001:00005d70       ?catch$0@?0???$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z@4HA 0000000140006d70 f   struct_reflection.obj
+ 0001:00005d7d       __catch$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z$0 0000000140006d7d f   struct_reflection.obj
+ 0001:00005dc0       ?catch$1@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 0000000140006dc0 f   struct_reflection.obj
+ 0001:00005dcd       __catch$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z$0 0000000140006dcd f   struct_reflection.obj
+ 0001:00005df0       ?dtor$0@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 0000000140006df0 f   struct_reflection.obj
+ 0001:00005e10       ?dtor$0@?0??_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z@4HA 0000000140006e10 f   struct_reflection.obj
+ 0001:00005e30       ?filt$0@?0??__scrt_common_main_seh@@YAHXZ@4HA 0000000140006e30 f   MSVCRTD:exe_main.obj
+ 0001:00005e60       __scrt_is_nonwritable_in_current_image$filt$0 0000000140006e60 f   MSVCRTD:utility.obj
+ 0002:00000228       ?pre_cpp_initializer@@3P6AXXZEA 0000000140007228     MSVCRTD:exe_main.obj
+ 0002:00000240       ?pre_c_initializer@@3P6AHXZEA 0000000140007240     MSVCRTD:exe_main.obj
+ 0002:00000248       ?post_pgo_initializer@@3P6AHXZEA 0000000140007248     MSVCRTD:exe_main.obj
+ 0002:00000280       $SG32807                   0000000140007280     struct_reflection.obj
+ 0002:000002a0       $SG32808                   00000001400072a0     struct_reflection.obj
+ 0002:000002e4       $SG34247                   00000001400072e4     struct_reflection.obj
+ 0002:000002e8       $SG32809                   00000001400072e8     struct_reflection.obj
+ 0002:000002f4       $SG34268                   00000001400072f4     struct_reflection.obj
+ 0002:000002f8       $SG70669                   00000001400072f8     struct_reflection.obj
+ 0002:00000310       $SG70670                   0000000140007310     struct_reflection.obj
+ 0002:00000324       $SG73316                   0000000140007324     struct_reflection.obj
+ 0002:00000328       $SG70671                   0000000140007328     struct_reflection.obj
+ 0002:00000334       $SG73320                   0000000140007334     struct_reflection.obj
+ 0002:00000338       $SG72939                   0000000140007338     struct_reflection.obj
+ 0002:00000354       $SG73318                   0000000140007354     struct_reflection.obj
+ 0002:0000035c       $SG73322                   000000014000735c     struct_reflection.obj
+ 0002:00000360       $SG72941                   0000000140007360     struct_reflection.obj
+ 0002:0000037c       $SG73324                   000000014000737c     struct_reflection.obj
+ 0002:00000380       $SG72943                   0000000140007380     struct_reflection.obj
+ 0002:0000039c       $SG73416                   000000014000739c     struct_reflection.obj
+ 0002:000003a0       $SG72950                   00000001400073a0     struct_reflection.obj
+ 0002:000003b8       $SG72952                   00000001400073b8     struct_reflection.obj
+ 0002:000003d0       $SG72954                   00000001400073d0     struct_reflection.obj
+ 0002:000003ec       $SG73411                   00000001400073ec     struct_reflection.obj
+ 0002:000003f4       $SG73420                   00000001400073f4     struct_reflection.obj
+ 0002:000003f8       $SG72962                   00000001400073f8     struct_reflection.obj
+ 0002:00000410       $SG72964                   0000000140007410     struct_reflection.obj
+ 0002:00000428       $SG72966                   0000000140007428     struct_reflection.obj
+ 0002:00000444       $SG73421                   0000000140007444     struct_reflection.obj
+ 0002:00000448       $SG72968                   0000000140007448     struct_reflection.obj
+ 0002:00000460       $SG72969                   0000000140007460     struct_reflection.obj
+ 0002:00000478       $SG72970                   0000000140007478     struct_reflection.obj
+ 0002:00000494       $SG73423                   0000000140007494     struct_reflection.obj
+ 0002:00000498       $SG72979                   0000000140007498     struct_reflection.obj
+ 0002:000004b0       $SG72981                   00000001400074b0     struct_reflection.obj
+ 0002:000004cc       $SG73424                   00000001400074cc     struct_reflection.obj
+ 0002:000004d0       $SG72988                   00000001400074d0     struct_reflection.obj
+ 0002:000004e8       $SG72990                   00000001400074e8     struct_reflection.obj
+ 0002:00000504       $SG73425                   0000000140007504     struct_reflection.obj
+ 0002:00000508       $SG72997                   0000000140007508     struct_reflection.obj
+ 0002:00000520       $SG72999                   0000000140007520     struct_reflection.obj
+ 0002:0000053c       $SG73426                   000000014000753c     struct_reflection.obj
+ 0002:00000540       $SG73001                   0000000140007540     struct_reflection.obj
+ 0002:00000558       $SG73002                   0000000140007558     struct_reflection.obj
+ 0002:00000574       $SG73434                   0000000140007574     struct_reflection.obj
+ 0002:00000578       $SG73011                   0000000140007578     struct_reflection.obj
+ 0002:00000590       $SG73013                   0000000140007590     struct_reflection.obj
+ 0002:000005ac       $SG32482                   00000001400075ac     struct_reflection.obj
+ 0002:000005b0       $SG73015                   00000001400075b0     struct_reflection.obj
+ 0002:000005c8       $SG73022                   00000001400075c8     struct_reflection.obj
+ 0002:000005e0       $SG73024                   00000001400075e0     struct_reflection.obj
+ 0002:000005f8       $SG73026                   00000001400075f8     struct_reflection.obj
+ 0002:00000610       $SG73034                   0000000140007610     struct_reflection.obj
+ 0002:00000628       $SG73036                   0000000140007628     struct_reflection.obj
+ 0002:00000640       $SG73038                   0000000140007640     struct_reflection.obj
+ 0002:00000658       $SG73040                   0000000140007658     struct_reflection.obj
+ 0002:00000670       $SG73041                   0000000140007670     struct_reflection.obj
+ 0002:00000688       $SG73042                   0000000140007688     struct_reflection.obj
+ 0002:000006a0       $SG73051                   00000001400076a0     struct_reflection.obj
+ 0002:000006b8       $SG73053                   00000001400076b8     struct_reflection.obj
+ 0002:000006d0       $SG73060                   00000001400076d0     struct_reflection.obj
+ 0002:000006e8       $SG73062                   00000001400076e8     struct_reflection.obj
+ 0002:00000700       $SG73069                   0000000140007700     struct_reflection.obj
+ 0002:00000718       $SG73071                   0000000140007718     struct_reflection.obj
+ 0002:00000730       $SG73073                   0000000140007730     struct_reflection.obj
+ 0002:00000748       $SG73074                   0000000140007748     struct_reflection.obj
+ 0002:00000760       $SG73083                   0000000140007760     struct_reflection.obj
+ 0002:00000778       $SG73085                   0000000140007778     struct_reflection.obj
+ 0002:0000078c       $SG32483                   000000014000778c     struct_reflection.obj
+ 0002:00000790       $SG73087                   0000000140007790     struct_reflection.obj
+ 0002:000007a8       $SG73089                   00000001400077a8     struct_reflection.obj
+ 0002:000007c0       $SG73091                   00000001400077c0     struct_reflection.obj
+ 0002:000007e0       $SG73093                   00000001400077e0     struct_reflection.obj
+ 0002:000007f8       $SG73095                   00000001400077f8     struct_reflection.obj
+ 0002:00000810       $SG73097                   0000000140007810     struct_reflection.obj
+ 0002:0000082c       $SG32500                   000000014000782c     struct_reflection.obj
+ 0002:00000830       $SG73099                   0000000140007830     struct_reflection.obj
+ 0002:00000848       $SG73101                   0000000140007848     struct_reflection.obj
+ 0002:0000086c       $SG32501                   000000014000786c     struct_reflection.obj
+ 0002:00000870       $SG73103                   0000000140007870     struct_reflection.obj
+ 0002:00000888       $SG73105                   0000000140007888     struct_reflection.obj
+ 0002:000008a0       $SG73107                   00000001400078a0     struct_reflection.obj
+ 0002:000008b8       $SG73109                   00000001400078b8     struct_reflection.obj
+ 0002:000008d4       $SG32505                   00000001400078d4     struct_reflection.obj
+ 0002:000008d8       $SG73111                   00000001400078d8     struct_reflection.obj
+ 0002:000008f4       $SG32506                   00000001400078f4     struct_reflection.obj
+ 0002:000008f8       $SG73113                   00000001400078f8     struct_reflection.obj
+ 0002:00000914       $SG32510                   0000000140007914     struct_reflection.obj
+ 0002:00000918       $SG73115                   0000000140007918     struct_reflection.obj
+ 0002:00000930       $SG73117                   0000000140007930     struct_reflection.obj
+ 0002:0000094c       $SG32514                   000000014000794c     struct_reflection.obj
+ 0002:00000950       $SG73119                   0000000140007950     struct_reflection.obj
+ 0002:00000968       $SG73121                   0000000140007968     struct_reflection.obj
+ 0002:00000990       $SG73123                   0000000140007990     struct_reflection.obj
+ 0002:000009b4       $SG32517                   00000001400079b4     struct_reflection.obj
+ 0002:000009b8       $SG73125                   00000001400079b8     struct_reflection.obj
+ 0002:000009e0       $SG73127                   00000001400079e0     struct_reflection.obj
+ 0002:00000a00       $SG73129                   0000000140007a00     struct_reflection.obj
+ 0002:00000a1c       $SG32518                   0000000140007a1c     struct_reflection.obj
+ 0002:00000a20       $SG73131                   0000000140007a20     struct_reflection.obj
+ 0002:00000a40       $SG73133                   0000000140007a40     struct_reflection.obj
+ 0002:00000a60       $SG73140                   0000000140007a60     struct_reflection.obj
+ 0002:00000a74       $SG32553                   0000000140007a74     struct_reflection.obj
+ 0002:00000a78       $SG73142                   0000000140007a78     struct_reflection.obj
+ 0002:00000a8c       $SG32573                   0000000140007a8c     struct_reflection.obj
+ 0002:00000a90       $SG73144                   0000000140007a90     struct_reflection.obj
+ 0002:00000aa4       $SG32588                   0000000140007aa4     struct_reflection.obj
+ 0002:00000aa8       $SG73146                   0000000140007aa8     struct_reflection.obj
+ 0002:00000abc       $SG32608                   0000000140007abc     struct_reflection.obj
+ 0002:00000ac0       $SG73148                   0000000140007ac0     struct_reflection.obj
+ 0002:00000adc       $SG32625                   0000000140007adc     struct_reflection.obj
+ 0002:00000ae0       $SG73150                   0000000140007ae0     struct_reflection.obj
+ 0002:00000af8       $SG73152                   0000000140007af8     struct_reflection.obj
+ 0002:00000b0c       $SG32639                   0000000140007b0c     struct_reflection.obj
+ 0002:00000b10       $SG73154                   0000000140007b10     struct_reflection.obj
+ 0002:00000b28       $SG73156                   0000000140007b28     struct_reflection.obj
+ 0002:00000b3c       $SG32646                   0000000140007b3c     struct_reflection.obj
+ 0002:00000b40       $SG73158                   0000000140007b40     struct_reflection.obj
+ 0002:00000b60       $SG73160                   0000000140007b60     struct_reflection.obj
+ 0002:00000b78       $SG73162                   0000000140007b78     struct_reflection.obj
+ 0002:00000b8c       $SG32648                   0000000140007b8c     struct_reflection.obj
+ 0002:00000b90       $SG73164                   0000000140007b90     struct_reflection.obj
+ 0002:00000ba8       $SG73166                   0000000140007ba8     struct_reflection.obj
+ 0002:00000bc8       $SG73168                   0000000140007bc8     struct_reflection.obj
+ 0002:00000be8       $SG73170                   0000000140007be8     struct_reflection.obj
+ 0002:00000c00       $SG73172                   0000000140007c00     struct_reflection.obj
+ 0002:00000c18       $SG73174                   0000000140007c18     struct_reflection.obj
+ 0002:00000c38       $SG73176                   0000000140007c38     struct_reflection.obj
+ 0002:00000c50       $SG73178                   0000000140007c50     struct_reflection.obj
+ 0002:00000c78       $SG73180                   0000000140007c78     struct_reflection.obj
+ 0002:00000ca0       $SG73182                   0000000140007ca0     struct_reflection.obj
+ 0002:00000cc8       $SG73184                   0000000140007cc8     struct_reflection.obj
+ 0002:00000ce8       $SG73186                   0000000140007ce8     struct_reflection.obj
+ 0002:00000d00       $SG73188                   0000000140007d00     struct_reflection.obj
+ 0002:00000d20       $SG73190                   0000000140007d20     struct_reflection.obj
+ 0002:00000d40       $SG73221                   0000000140007d40     struct_reflection.obj
+ 0002:00000d58       $SG73223                   0000000140007d58     struct_reflection.obj
+ 0002:00000d70       $SG73225                   0000000140007d70     struct_reflection.obj
+ 0002:00000d88       $SG73227                   0000000140007d88     struct_reflection.obj
+ 0002:00000da0       $SG73229                   0000000140007da0     struct_reflection.obj
+ 0002:00000dc0       $SG73231                   0000000140007dc0     struct_reflection.obj
+ 0002:00000dd8       $SG73233                   0000000140007dd8     struct_reflection.obj
+ 0002:00000df0       $SG73235                   0000000140007df0     struct_reflection.obj
+ 0002:00000e08       $SG73237                   0000000140007e08     struct_reflection.obj
+ 0002:00000e20       $SG73239                   0000000140007e20     struct_reflection.obj
+ 0002:00000e40       $SG73241                   0000000140007e40     struct_reflection.obj
+ 0002:00000e58       $SG73243                   0000000140007e58     struct_reflection.obj
+ 0002:00000e70       $SG73245                   0000000140007e70     struct_reflection.obj
+ 0002:00000e88       $SG73247                   0000000140007e88     struct_reflection.obj
+ 0002:00000ea8       $SG73249                   0000000140007ea8     struct_reflection.obj
+ 0002:00000ec8       $SG73251                   0000000140007ec8     struct_reflection.obj
+ 0002:00000ee0       $SG73253                   0000000140007ee0     struct_reflection.obj
+ 0002:00000ef8       $SG73255                   0000000140007ef8     struct_reflection.obj
+ 0002:00000f18       $SG73257                   0000000140007f18     struct_reflection.obj
+ 0002:00000f30       $SG73259                   0000000140007f30     struct_reflection.obj
+ 0002:00000f58       $SG73261                   0000000140007f58     struct_reflection.obj
+ 0002:00000f80       $SG73263                   0000000140007f80     struct_reflection.obj
+ 0002:00000fa8       $SG73265                   0000000140007fa8     struct_reflection.obj
+ 0002:00000fc8       $SG73267                   0000000140007fc8     struct_reflection.obj
+ 0002:00000fe0       $SG73269                   0000000140007fe0     struct_reflection.obj
+ 0002:00001000       $SG73271                   0000000140008000     struct_reflection.obj
+ 0002:00001020       $SG73273                   0000000140008020     struct_reflection.obj
+ 0002:00001038       $SG73274                   0000000140008038     struct_reflection.obj
+ 0002:00001050       $SG73275                   0000000140008050     struct_reflection.obj
+ 0002:00001068       $SG73276                   0000000140008068     struct_reflection.obj
+ 0002:00001080       $SG73277                   0000000140008080     struct_reflection.obj
+ 0002:000010a0       $SG73278                   00000001400080a0     struct_reflection.obj
+ 0002:000010b8       $SG73279                   00000001400080b8     struct_reflection.obj
+ 0002:000010d0       $SG73280                   00000001400080d0     struct_reflection.obj
+ 0002:000010e8       $SG73281                   00000001400080e8     struct_reflection.obj
+ 0002:00001100       $SG73282                   0000000140008100     struct_reflection.obj
+ 0002:00001120       $SG73283                   0000000140008120     struct_reflection.obj
+ 0002:00001138       $SG73284                   0000000140008138     struct_reflection.obj
+ 0002:00001150       $SG73285                   0000000140008150     struct_reflection.obj
+ 0002:00001168       $SG73286                   0000000140008168     struct_reflection.obj
+ 0002:00001188       $SG73287                   0000000140008188     struct_reflection.obj
+ 0002:000011a8       $SG73288                   00000001400081a8     struct_reflection.obj
+ 0002:000011c0       $SG73289                   00000001400081c0     struct_reflection.obj
+ 0002:000011d8       $SG73290                   00000001400081d8     struct_reflection.obj
+ 0002:000011f8       $SG73291                   00000001400081f8     struct_reflection.obj
+ 0002:00001210       $SG73292                   0000000140008210     struct_reflection.obj
+ 0002:00001238       $SG73293                   0000000140008238     struct_reflection.obj
+ 0002:00001260       $SG73294                   0000000140008260     struct_reflection.obj
+ 0002:00001288       $SG73295                   0000000140008288     struct_reflection.obj
+ 0002:000012a8       $SG73296                   00000001400082a8     struct_reflection.obj
+ 0002:000012c0       $SG73297                   00000001400082c0     struct_reflection.obj
+ 0002:000012e0       $SG73298                   00000001400082e0     struct_reflection.obj
+ 0002:00001300       $SG73315                   0000000140008300     struct_reflection.obj
+ 0002:00001338       $SG73319                   0000000140008338     struct_reflection.obj
+ 0002:00001360       $SG73321                   0000000140008360     struct_reflection.obj
+ 0002:00001380       $SG73323                   0000000140008380     struct_reflection.obj
+ 0002:00001390       $SG73407                   0000000140008390     struct_reflection.obj
+ 0002:000013a8       $SG73408                   00000001400083a8     struct_reflection.obj
+ 0002:000013c8       $SG73412                   00000001400083c8     struct_reflection.obj
+ 0002:000013e8       $SG73433                   00000001400083e8     struct_reflection.obj
+ 0002:00001400       $SG73413                   0000000140008400     struct_reflection.obj
+ 0002:00001470       $SG32554                   0000000140008470     struct_reflection.obj
+ 0002:00001478       $SG32571                   0000000140008478     struct_reflection.obj
+ 0002:00001480       $cppxdata$?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 0000000140008480     struct_reflection.obj
+ 0002:000014a8       $cppxdata$main             00000001400084a8     struct_reflection.obj
+ 0002:000014d0       $cppxdata$?_Orphan_all@_Container_base12@std@@QEAAXXZ 00000001400084d0     struct_reflection.obj
+ 0002:000014f8       $cppxdata$??1?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 00000001400084f8     struct_reflection.obj
+ 0002:00001520       $cppxdata$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140008520     struct_reflection.obj
+ 0002:00001548       $cppxdata$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 0000000140008548     struct_reflection.obj
+ 0002:00001570       $cppxdata$??1?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140008570     struct_reflection.obj
+ 0002:00001598       $cppxdata$?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 0000000140008598     struct_reflection.obj
+ 0002:000015c0       $cppxdata$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 00000001400085c0     struct_reflection.obj
+ 0002:00001b18       GS_ExceptionPointers       0000000140008b18     MSVCRTD:gs_report.obj
+ 0002:00002160       $unwind$?streq@@YAIPEAD0I@Z 0000000140009160     struct_reflection.obj
+ 0002:00002168       $unwind$?isEOL@@YAID@Z     0000000140009168     struct_reflection.obj
+ 0002:00002170       $unwind$?isWhitespace@@YAID@Z 0000000140009170     struct_reflection.obj
+ 0002:00002178       $unwind$?eatAllWhitespace@@YAXPEAUTokenizer@@@Z 0000000140009178     struct_reflection.obj
+ 0002:00002180       $unwind$?isAlpha@@YAID@Z   0000000140009180     struct_reflection.obj
+ 0002:00002188       $unwind$?isNumeric@@YAID@Z 0000000140009188     struct_reflection.obj
+ 0002:00002190       $unwind$?getToken@@YA?AUToken@@PEAUTokenizer@@@Z 0000000140009190     struct_reflection.obj
+ 0002:0000219c       $unwind$?peek_tok@@YA?AUToken@@UTokenizer@@@Z 000000014000919c     struct_reflection.obj
+ 0002:000021a8       $unwind$?tokenEquals@@YAIAEBUToken@@0@Z 00000001400091a8     struct_reflection.obj
+ 0002:000021b0       $unwind$??8@YAIAEBUToken@@0@Z 00000001400091b0     struct_reflection.obj
+ 0002:000021b8       $unwind$?token@@YA?AUToken@@W4TokenType@@IPEAD@Z 00000001400091b8     struct_reflection.obj
+ 0002:000021c4       $unwind$?is_cpp_or_h_file@@YAIPEAD@Z 00000001400091c4     struct_reflection.obj
+ 0002:000021cc       $unwind$?find_next_token_in_file@@YAIPEAPEADUToken@@@Z 00000001400091cc     struct_reflection.obj
+ 0002:000021d8       $unwind$?find_next_token@@YAIPEAUTokenizer@@UToken@@@Z 00000001400091d8     struct_reflection.obj
+ 0002:000021e4       $unwind$?update_brace_counter@@YAHUToken@@@Z 00000001400091e4     struct_reflection.obj
+ 0002:000021f0       $unwind$?eat_to_next_whitespace@@YAIPEAUTokenizer@@@Z 00000001400091f0     struct_reflection.obj
+ 0002:000021f8       $unwind$?l_string@@YA?AUlen_string@@I@Z 00000001400091f8     struct_reflection.obj
+ 0002:00002204       $unwind$?reallocate_len_string@@YAXPEAUlen_string@@I@Z 0000000140009204     struct_reflection.obj
+ 0002:0000220c       $unwind$?append_to_len_string@@YAXPEAUlen_string@@PEADI@Z 000000014000920c     struct_reflection.obj
+ 0002:00002214       $unwind$?append_to_len_string@@YAXPEAUlen_string@@PEAD@Z 0000000140009214     struct_reflection.obj
+ 0002:0000221c       $unwind$?l_string@@YA?AUlen_string@@PEAD@Z 000000014000921c     struct_reflection.obj
+ 0002:00002228       $unwind$?l_string@@YA?AUlen_string@@PEADI@Z 0000000140009228     struct_reflection.obj
+ 0002:00002234       $unwind$?find_first_occurence_of_char@@YAIAEBUlen_string@@D@Z 0000000140009234     struct_reflection.obj
+ 0002:0000223c       $unwind$?strip_extension@@YAXPEAUlen_string@@@Z 000000014000923c     struct_reflection.obj
+ 0002:00002244       $unwind$?read_entire_file_text@@YAPEADPEADPEA_K@Z 0000000140009244     struct_reflection.obj
+ 0002:0000224c       $unwind$?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 000000014000924c     struct_reflection.obj
+ 0002:00002260       $stateUnwindMap$?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 0000000140009260     struct_reflection.obj
+ 0002:00002268       $ip2state$?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 0000000140009268     struct_reflection.obj
+ 0002:00002280       $unwind$?dtor$0@?0??append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z@4HA 0000000140009280     struct_reflection.obj
+ 0002:00002288       $unwind$main               0000000140009288     struct_reflection.obj
+ 0002:000022a0       $stateUnwindMap$main       00000001400092a0     struct_reflection.obj
+ 0002:000022a8       $ip2state$main             00000001400092a8     struct_reflection.obj
+ 0002:000022c0       $unwind$main$dtor$0        00000001400092c0     struct_reflection.obj
+ 0002:000022c8       $unwind$_vfprintf_l        00000001400092c8     struct_reflection.obj
+ 0002:000022d0       $unwind$printf             00000001400092d0     struct_reflection.obj
+ 0002:000022d8       $unwind$_vsnprintf_l       00000001400092d8     struct_reflection.obj
+ 0002:000022e0       $unwind$_vsprintf_l        00000001400092e0     struct_reflection.obj
+ 0002:000022e8       $unwind$sprintf            00000001400092e8     struct_reflection.obj
+ 0002:000022f0       $unwind$?_Getpfirst@_Container_base12@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 00000001400092f0     struct_reflection.obj
+ 0002:000022f8       $unwind$?_Orphan_all@_Container_base12@std@@QEAAXXZ 00000001400092f8     struct_reflection.obj
+ 0002:00002308       $ip2state$?_Orphan_all@_Container_base12@std@@QEAAXXZ 0000000140009308     struct_reflection.obj
+ 0002:00002310       $unwind$?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 0000000140009310     struct_reflection.obj
+ 0002:00002318       $unwind$?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 0000000140009318     struct_reflection.obj
+ 0002:00002320       $unwind$?deallocate@?$allocator@Ulen_string@@@std@@QEAAXQEAUlen_string@@_K@Z 0000000140009320     struct_reflection.obj
+ 0002:00002328       $unwind$?allocate@?$allocator@Ulen_string@@@std@@QEAAPEAUlen_string@@_K@Z 0000000140009328     struct_reflection.obj
+ 0002:00002330       $unwind$??0?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 0000000140009330     struct_reflection.obj
+ 0002:00002338       $unwind$??1?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 0000000140009338     struct_reflection.obj
+ 0002:00002348       $ip2state$??1?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 0000000140009348     struct_reflection.obj
+ 0002:00002350       $unwind$?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 0000000140009350     struct_reflection.obj
+ 0002:00002358       $unwind$?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 0000000140009358     struct_reflection.obj
+ 0002:00002360       $unwind$?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 0000000140009360     struct_reflection.obj
+ 0002:00002368       $unwind$?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAU_Container_proxy@2@XZ 0000000140009368     struct_reflection.obj
+ 0002:00002370       $unwind$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 0000000140009370     struct_reflection.obj
+ 0002:00002378       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$allocator@Ulen_string@@@2@XZ 0000000140009378     struct_reflection.obj
+ 0002:00002380       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$allocator@Ulen_string@@@2@XZ 0000000140009380     struct_reflection.obj
+ 0002:00002388       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 0000000140009388     struct_reflection.obj
+ 0002:00002390       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 0000000140009390     struct_reflection.obj
+ 0002:00002398       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 0000000140009398     struct_reflection.obj
+ 0002:000023a0       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 00000001400093a0     struct_reflection.obj
+ 0002:000023a8       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 00000001400093a8     struct_reflection.obj
+ 0002:000023b0       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 00000001400093b0     struct_reflection.obj
+ 0002:000023b8       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 00000001400093b8     struct_reflection.obj
+ 0002:000023c0       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 00000001400093c0     struct_reflection.obj
+ 0002:000023c8       $unwind$??0?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@std@@QEAA@XZ 00000001400093c8     struct_reflection.obj
+ 0002:000023d0       $unwind$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 00000001400093d0     struct_reflection.obj
+ 0002:000023e0       $ip2state$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 00000001400093e0     struct_reflection.obj
+ 0002:000023e8       $unwind$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 00000001400093e8     struct_reflection.obj
+ 0002:000023f8       $stateUnwindMap$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 00000001400093f8     struct_reflection.obj
+ 0002:00002410       $tryMap$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 0000000140009410     struct_reflection.obj
+ 0002:00002424       $handlerMap$0$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 0000000140009424     struct_reflection.obj
+ 0002:00002440       $ip2state$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 0000000140009440     struct_reflection.obj
+ 0002:00002480       $unwind$?dtor$0@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 0000000140009480     struct_reflection.obj
+ 0002:00002488       $unwind$?catch$1@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 0000000140009488     struct_reflection.obj
+ 0002:00002498       $unwind$??1?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 0000000140009498     struct_reflection.obj
+ 0002:000024a8       $ip2state$??1?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 00000001400094a8     struct_reflection.obj
+ 0002:000024b0       $unwind$?push_back@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 00000001400094b0     struct_reflection.obj
+ 0002:000024b8       $unwind$?size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 00000001400094b8     struct_reflection.obj
+ 0002:000024c0       $unwind$?max_size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 00000001400094c0     struct_reflection.obj
+ 0002:000024c8       $unwind$?capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 00000001400094c8     struct_reflection.obj
+ 0002:000024d0       $unwind$?_Has_unused_capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_NXZ 00000001400094d0     struct_reflection.obj
+ 0002:000024d8       $unwind$??A?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAAEAUlen_string@@_K@Z 00000001400094d8     struct_reflection.obj
+ 0002:000024e0       $unwind$?_Umove@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU3@00@Z 00000001400094e0     struct_reflection.obj
+ 0002:000024e8       $unwind$?_Umove_if_noexcept1@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00U?$integral_constant@_N$00@2@@Z 00000001400094e8     struct_reflection.obj
+ 0002:000024f0       $unwind$?_Umove_if_noexcept@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00@Z 00000001400094f0     struct_reflection.obj
+ 0002:000024f8       $unwind$?_Destroy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@0@Z 00000001400094f8     struct_reflection.obj
+ 0002:00002500       $unwind$?_Calculate_growth@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_K_K@Z 0000000140009500     struct_reflection.obj
+ 0002:00002508       $unwind$?_Buy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAA_N_K@Z 0000000140009508     struct_reflection.obj
+ 0002:00002510       $unwind$?_Change_array@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXQEAUlen_string@@_K1@Z 0000000140009510     struct_reflection.obj
+ 0002:00002518       $unwind$?_Tidy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXXZ 0000000140009518     struct_reflection.obj
+ 0002:00002520       $unwind$?_Xlength@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@CAXXZ 0000000140009520     struct_reflection.obj
+ 0002:00002528       $unwind$?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 0000000140009528     struct_reflection.obj
+ 0002:00002538       $stateUnwindMap$?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 0000000140009538     struct_reflection.obj
+ 0002:00002540       $ip2state$?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 0000000140009540     struct_reflection.obj
+ 0002:00002558       $unwind$?dtor$0@?0??_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z@4HA 0000000140009558     struct_reflection.obj
+ 0002:00002560       $unwind$??$emplace_back@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 0000000140009560     struct_reflection.obj
+ 0002:00002568       $unwind$??$_Emplace_back_with_unused_capacity@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAX$$QEAUlen_string@@@Z 0000000140009568     struct_reflection.obj
+ 0002:00002570       $unwind$??$construct@Ulen_string@@U1@@?$_Default_allocator_traits@V?$allocator@Ulen_string@@@std@@@std@@SAXAEAV?$allocator@Ulen_string@@@1@QEAUlen_string@@$$QEAU3@@Z 0000000140009570     struct_reflection.obj
+ 0002:0000257c       $unwind$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 000000014000957c     struct_reflection.obj
+ 0002:0000258c       $stateUnwindMap$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 000000014000958c     struct_reflection.obj
+ 0002:0000259c       $tryMap$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 000000014000959c     struct_reflection.obj
+ 0002:000025b0       $handlerMap$0$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 00000001400095b0     struct_reflection.obj
+ 0002:000025c8       $ip2state$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 00000001400095c8     struct_reflection.obj
+ 0002:000025f8       $unwind$?catch$0@?0???$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z@4HA 00000001400095f8     struct_reflection.obj
+ 0002:00002608       $unwind$??$?0V?$allocator@Ulen_string@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Ulen_string@@@1@@Z 0000000140009608     struct_reflection.obj
+ 0002:00002610       $unwind$??$_Ucopy@PEAUlen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU2@00@Z 0000000140009610     struct_reflection.obj
+ 0002:00002618       $unwind$??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140009618     struct_reflection.obj
+ 0002:00002620       $unwind$??$?0$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 0000000140009620     struct_reflection.obj
+ 0002:00002628       $unwind$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 0000000140009628     struct_reflection.obj
+ 0002:00002630       $unwind$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140009630     struct_reflection.obj
+ 0002:00002638       $unwind$?allocate@?$allocator@U_Container_proxy@std@@@std@@QEAAPEAU_Container_proxy@2@_K@Z 0000000140009638     struct_reflection.obj
+ 0002:00002640       $unwind$?deallocate@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@2@QEAU_Container_proxy@2@_K@Z 0000000140009640     struct_reflection.obj
+ 0002:00002648       $unwind$??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z 0000000140009648     struct_reflection.obj
+ 0002:00002650       $unwind$??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@1@QEAU_Container_proxy@1@$$QEAU31@@Z 0000000140009650     struct_reflection.obj
+ 0002:0000265c       $unwind$??$_Destroy_range@V?$allocator@Ulen_string@@@std@@@std@@YAXPEAUlen_string@@0AEAV?$allocator@Ulen_string@@@0@@Z 000000014000965c     struct_reflection.obj
+ 0002:00002664       $unwind$??$_Get_size_of_n@$0BA@@std@@YA_K_K@Z 0000000140009664     struct_reflection.obj
+ 0002:0000266c       $unwind$??$?0V?$allocator@Ulen_string@@@std@@$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Ulen_string@@@1@@Z 000000014000966c     struct_reflection.obj
+ 0002:00002674       $unwind$??$_Uninitialized_copy@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 0000000140009674     struct_reflection.obj
+ 0002:0000267c       $unwind$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 000000014000967c     struct_reflection.obj
+ 0002:00002684       $unwind$??$_Uninitialized_move@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 0000000140009684     struct_reflection.obj
+ 0002:0000268c       $unwind$??$_Idl_distance@PEAUlen_string@@PEAU1@@std@@YA_JAEBQEAUlen_string@@0@Z 000000014000968c     struct_reflection.obj
+ 0002:00002694       $unwind$??$_Uninitialized_copy_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 0000000140009694     struct_reflection.obj
+ 0002:0000269c       $unwind$??$_Uninitialized_move_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 000000014000969c     struct_reflection.obj
+ 0002:000026a4       $unwind$??$_Copy_memmove@PEAUlen_string@@PEAU1@@std@@YAPEAUlen_string@@PEAU1@00@Z 00000001400096a4     struct_reflection.obj
+ 0002:000026ac       $unwind$??2@YAPEAX_K@Z     00000001400096ac     MSVCRTD:new_scalar.obj
+ 0002:000026b4       $unwind$??3@YAXPEAX_K@Z    00000001400096b4     MSVCRTD:delete_scalar_size.obj
+ 0002:000026bc       $unwind$__GSHandlerCheck_EH 00000001400096bc     MSVCRTD:gshandlereh.obj
+ 0002:000026c8       $xdatasym                  00000001400096c8     MSVCRTD:_amdsecgs_.obj
+ 0002:000026cc       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 00000001400096cc     MSVCRTD:exe_main.obj
+ 0002:000026d4       $unwind$?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 00000001400096d4     MSVCRTD:exe_main.obj
+ 0002:000026dc       $unwind$?set_app_type@__scrt_main_policy@@SAXXZ 00000001400096dc     MSVCRTD:exe_main.obj
+ 0002:000026e4       $unwind$?set_fmode@__scrt_file_policy@@SAXXZ 00000001400096e4     MSVCRTD:exe_main.obj
+ 0002:000026ec       $unwind$?set_commode@__scrt_file_policy@@SAXXZ 00000001400096ec     MSVCRTD:exe_main.obj
+ 0002:000026f4       $unwind$?invoke_main@@YAHXZ 00000001400096f4     MSVCRTD:exe_main.obj
+ 0002:000026fc       $unwind$?pre_c_initialization@@YAHXZ 00000001400096fc     MSVCRTD:exe_main.obj
+ 0002:00002704       $unwind$?post_pgo_initialization@@YAHXZ 0000000140009704     MSVCRTD:exe_main.obj
+ 0002:0000270c       $unwind$?pre_cpp_initialization@@YAXXZ 000000014000970c     MSVCRTD:exe_main.obj
+ 0002:00002714       $unwind$?__scrt_common_main_seh@@YAHXZ 0000000140009714     MSVCRTD:exe_main.obj
+ 0002:00002734       $unwind$?filt$0@?0??__scrt_common_main_seh@@YAHXZ@4HA 0000000140009734     MSVCRTD:exe_main.obj
+ 0002:0000273c       $unwind$?__scrt_common_main@@YAHXZ 000000014000973c     MSVCRTD:exe_main.obj
+ 0002:00002744       $unwind$mainCRTStartup     0000000140009744     MSVCRTD:exe_main.obj
+ 0002:0000274c       $unwind$??0exception@std@@QEAA@QEBDH@Z 000000014000974c     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002754       $unwind$??0exception@std@@QEAA@AEBV01@@Z 0000000140009754     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000275c       $unwind$??1exception@std@@UEAA@XZ 000000014000975c     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002764       $unwind$?what@exception@std@@UEBAPEBDXZ 0000000140009764     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000276c       $unwind$??_Gexception@std@@UEAAPEAXI@Z 000000014000976c     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002774       $unwind$??0bad_alloc@std@@QEAA@XZ 0000000140009774     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000277c       $unwind$??0bad_alloc@std@@AEAA@QEBD@Z 000000014000977c     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002784       $unwind$??1bad_alloc@std@@UEAA@XZ 0000000140009784     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000278c       $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000978c     MSVCRTD:throw_bad_alloc.obj
+ 0002:00002794       $unwind$??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140009794     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000279c       $unwind$??0bad_array_new_length@std@@QEAA@XZ 000000014000979c     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027a4       $unwind$??1bad_array_new_length@std@@UEAA@XZ 00000001400097a4     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027ac       $unwind$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 00000001400097ac     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027b4       $unwind$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 00000001400097b4     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027bc       $unwind$?__scrt_throw_std_bad_alloc@@YAXXZ 00000001400097bc     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027c4       $unwind$?__scrt_throw_std_bad_array_new_length@@YAXXZ 00000001400097c4     MSVCRTD:throw_bad_alloc.obj
+ 0002:000027cc       $unwind$??3@YAXPEAX@Z      00000001400097cc     MSVCRTD:delete_scalar.obj
+ 0002:000027d4       $unwind$__GSHandlerCheckCommon 00000001400097d4     MSVCRTD:_gshandler_.obj
+ 0002:000027dc       $unwind$__GSHandlerCheck   00000001400097dc     MSVCRTD:_gshandler_.obj
+ 0002:000027e4       $unwind$__report_gsfailure 00000001400097e4     MSVCRTD:gs_report.obj
+ 0002:000027ec       $unwind$capture_previous_context 00000001400097ec     MSVCRTD:gs_report.obj
+ 0002:000027f4       $unwind$__raise_securityfailure 00000001400097f4     MSVCRTD:gs_report.obj
+ 0002:000027fc       $unwind$atexit             00000001400097fc     MSVCRTD:utility.obj
+ 0002:00002804       $unwind$_onexit            0000000140009804     MSVCRTD:utility.obj
+ 0002:0000280c       $unwind$__scrt_is_nonwritable_in_current_image 000000014000980c     MSVCRTD:utility.obj
+ 0002:0000282c       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000014000982c     MSVCRTD:utility.obj
+ 0002:00002834       $unwind$__scrt_acquire_startup_lock 0000000140009834     MSVCRTD:utility.obj
+ 0002:0000283c       $unwind$__scrt_release_startup_lock 000000014000983c     MSVCRTD:utility.obj
+ 0002:00002844       $unwind$__scrt_initialize_crt 0000000140009844     MSVCRTD:utility.obj
+ 0002:0000284c       $unwind$__scrt_uninitialize_crt 000000014000984c     MSVCRTD:utility.obj
+ 0002:00002854       $unwind$__scrt_initialize_onexit_tables 0000000140009854     MSVCRTD:utility.obj
+ 0002:00002860       $unwind$?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000140009860     MSVCRTD:utility.obj
+ 0002:00002868       $unwind$?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000140009868     MSVCRTD:utility.obj
+ 0002:00002870       $unwind$??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000140009870     MSVCRTD:utility.obj
+ 0002:00002878       $unwind$??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000140009878     MSVCRTD:utility.obj
+ 0002:00002880       $unwind$__security_init_cookie 0000000140009880     MSVCRTD:gs_support.obj
+ 0002:00002888       $unwind$__get_entropy      0000000140009888     MSVCRTD:gs_support.obj
+ 0002:00002890       $unwind$?__scrt_initialize_type_info@@YAXXZ 0000000140009890     MSVCRTD:tncleanup.obj
+ 0002:00002898       $unwind$__scrt_initialize_default_local_stdio_options 0000000140009898     MSVCRTD:default_local_stdio_options.obj
+ 0002:000028a0       $unwind$__scrt_is_user_matherr_present 00000001400098a0     MSVCRTD:matherr_detection.obj
+ 0002:000028a8       $unwind$__scrt_is_managed_app 00000001400098a8     MSVCRTD:utility_desktop.obj
+ 0002:000028b0       $unwind$__scrt_initialize_mta 00000001400098b0     MSVCRTD:utility_desktop.obj
+ 0002:000028b8       $unwind$__scrt_set_unhandled_exception_filter 00000001400098b8     MSVCRTD:utility_desktop.obj
+ 0002:000028c0       $unwind$__scrt_fastfail    00000001400098c0     MSVCRTD:utility_desktop.obj
+ 0002:000028cc       $unwind$__scrt_unhandled_exception_filter 00000001400098cc     MSVCRTD:utility_desktop.obj
+ 0002:000028d4       $unwind$_RTC_Initialize    00000001400098d4     MSVCRTD:_initsect_.obj
+ 0002:000028e0       $unwind$_RTC_Terminate     00000001400098e0     MSVCRTD:_initsect_.obj
+ 0002:000028ec       $unwind$??_Gtype_info@@UEAAPEAXI@Z 00000001400098ec     MSVCRTD:std_type_info_static.obj
+ 0002:000028f4       $unwind$__isa_available_init 00000001400098f4     MSVCRTD:_cpu_disp_.obj
+ 0002:00002904       $unwind$__scrt_is_ucrt_dll_in_use 0000000140009904     MSVCRTD:ucrt_detection.obj
+ 0002:00002910       $xdatasym                  0000000140009910     MSVCRTD:_guard_dispatch_.obj
+ 0002:00002cd0       .idata$6                   0000000140009cd0     msvcprtd:MSVCP140D.dll
+ 0002:00002e3c       .idata$6                   0000000140009e3c     kernel32:KERNEL32.dll
+ 0002:00002eca       .idata$6                   0000000140009eca     vcruntimed:VCRUNTIME140D.dll
+ 0002:0000315a       .idata$6                   000000014000a15a     ucrtd:ucrtbased.dll
+ 0003:00000110       GS_ExceptionRecord         000000014000b110     MSVCRTD:gs_report.obj
+ 0003:000001b0       GS_ContextRecord           000000014000b1b0     MSVCRTD:gs_report.obj
+ 0003:00000690       ?is_initialized_as_dll@@3_NA 000000014000b690     MSVCRTD:utility.obj
+ 0003:00000691       ?module_local_atexit_table_initialized@@3_NA 000000014000b691     MSVCRTD:utility.obj
+ 0003:00000698       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000014000b698     MSVCRTD:utility.obj
+ 0003:000006b0       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000014000b6b0     MSVCRTD:utility.obj
+ 0004:00000000       $pdata$?streq@@YAIPEAD0I@Z 000000014000c000     struct_reflection.obj
+ 0004:0000000c       $pdata$?isEOL@@YAID@Z      000000014000c00c     struct_reflection.obj
+ 0004:00000018       $pdata$?isWhitespace@@YAID@Z 000000014000c018     struct_reflection.obj
+ 0004:00000024       $pdata$?eatAllWhitespace@@YAXPEAUTokenizer@@@Z 000000014000c024     struct_reflection.obj
+ 0004:00000030       $pdata$?isAlpha@@YAID@Z    000000014000c030     struct_reflection.obj
+ 0004:0000003c       $pdata$?isNumeric@@YAID@Z  000000014000c03c     struct_reflection.obj
+ 0004:00000048       $pdata$?getToken@@YA?AUToken@@PEAUTokenizer@@@Z 000000014000c048     struct_reflection.obj
+ 0004:00000054       $pdata$?peek_tok@@YA?AUToken@@UTokenizer@@@Z 000000014000c054     struct_reflection.obj
+ 0004:00000060       $pdata$?tokenEquals@@YAIAEBUToken@@0@Z 000000014000c060     struct_reflection.obj
+ 0004:0000006c       $pdata$??8@YAIAEBUToken@@0@Z 000000014000c06c     struct_reflection.obj
+ 0004:00000078       $pdata$?token@@YA?AUToken@@W4TokenType@@IPEAD@Z 000000014000c078     struct_reflection.obj
+ 0004:00000084       $pdata$?is_cpp_or_h_file@@YAIPEAD@Z 000000014000c084     struct_reflection.obj
+ 0004:00000090       $pdata$?find_next_token_in_file@@YAIPEAPEADUToken@@@Z 000000014000c090     struct_reflection.obj
+ 0004:0000009c       $pdata$?find_next_token@@YAIPEAUTokenizer@@UToken@@@Z 000000014000c09c     struct_reflection.obj
+ 0004:000000a8       $pdata$?update_brace_counter@@YAHUToken@@@Z 000000014000c0a8     struct_reflection.obj
+ 0004:000000b4       $pdata$?eat_to_next_whitespace@@YAIPEAUTokenizer@@@Z 000000014000c0b4     struct_reflection.obj
+ 0004:000000c0       $pdata$?l_string@@YA?AUlen_string@@I@Z 000000014000c0c0     struct_reflection.obj
+ 0004:000000cc       $pdata$?reallocate_len_string@@YAXPEAUlen_string@@I@Z 000000014000c0cc     struct_reflection.obj
+ 0004:000000d8       $pdata$?append_to_len_string@@YAXPEAUlen_string@@PEADI@Z 000000014000c0d8     struct_reflection.obj
+ 0004:000000e4       $pdata$?append_to_len_string@@YAXPEAUlen_string@@PEAD@Z 000000014000c0e4     struct_reflection.obj
+ 0004:000000f0       $pdata$?l_string@@YA?AUlen_string@@PEAD@Z 000000014000c0f0     struct_reflection.obj
+ 0004:000000fc       $pdata$?l_string@@YA?AUlen_string@@PEADI@Z 000000014000c0fc     struct_reflection.obj
+ 0004:00000108       $pdata$?find_first_occurence_of_char@@YAIAEBUlen_string@@D@Z 000000014000c108     struct_reflection.obj
+ 0004:00000114       $pdata$?strip_extension@@YAXPEAUlen_string@@@Z 000000014000c114     struct_reflection.obj
+ 0004:00000120       $pdata$?read_entire_file_text@@YAPEADPEADPEA_K@Z 000000014000c120     struct_reflection.obj
+ 0004:0000012c       $pdata$?append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z 000000014000c12c     struct_reflection.obj
+ 0004:00000138       $pdata$main                000000014000c138     struct_reflection.obj
+ 0004:00000144       $pdata$_vfprintf_l         000000014000c144     struct_reflection.obj
+ 0004:00000150       $pdata$printf              000000014000c150     struct_reflection.obj
+ 0004:0000015c       $pdata$_vsnprintf_l        000000014000c15c     struct_reflection.obj
+ 0004:00000168       $pdata$_vsprintf_l         000000014000c168     struct_reflection.obj
+ 0004:00000174       $pdata$sprintf             000000014000c174     struct_reflection.obj
+ 0004:00000180       $pdata$?_Getpfirst@_Container_base12@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 000000014000c180     struct_reflection.obj
+ 0004:0000018c       $pdata$?_Orphan_all@_Container_base12@std@@QEAAXXZ 000000014000c18c     struct_reflection.obj
+ 0004:00000198       $pdata$?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 000000014000c198     struct_reflection.obj
+ 0004:000001a4       $pdata$?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 000000014000c1a4     struct_reflection.obj
+ 0004:000001b0       $pdata$?deallocate@?$allocator@Ulen_string@@@std@@QEAAXQEAUlen_string@@_K@Z 000000014000c1b0     struct_reflection.obj
+ 0004:000001bc       $pdata$?allocate@?$allocator@Ulen_string@@@std@@QEAAPEAUlen_string@@_K@Z 000000014000c1bc     struct_reflection.obj
+ 0004:000001c8       $pdata$??0?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 000000014000c1c8     struct_reflection.obj
+ 0004:000001d4       $pdata$??1?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@XZ 000000014000c1d4     struct_reflection.obj
+ 0004:000001e0       $pdata$?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 000000014000c1e0     struct_reflection.obj
+ 0004:000001ec       $pdata$?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 000000014000c1ec     struct_reflection.obj
+ 0004:000001f8       $pdata$?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAPEAPEAU_Iterator_base12@2@XZ 000000014000c1f8     struct_reflection.obj
+ 0004:00000204       $pdata$?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAU_Container_proxy@2@XZ 000000014000c204     struct_reflection.obj
+ 0004:00000210       $pdata$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAXXZ 000000014000c210     struct_reflection.obj
+ 0004:0000021c       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$allocator@Ulen_string@@@2@XZ 000000014000c21c     struct_reflection.obj
+ 0004:00000228       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$allocator@Ulen_string@@@2@XZ 000000014000c228     struct_reflection.obj
+ 0004:00000234       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 000000014000c234     struct_reflection.obj
+ 0004:00000240       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@XZ 000000014000c240     struct_reflection.obj
+ 0004:0000024c       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 000000014000c24c     struct_reflection.obj
+ 0004:00000258       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 000000014000c258     struct_reflection.obj
+ 0004:00000264       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 000000014000c264     struct_reflection.obj
+ 0004:00000270       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 000000014000c270     struct_reflection.obj
+ 0004:0000027c       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAAAEAPEAUlen_string@@XZ 000000014000c27c     struct_reflection.obj
+ 0004:00000288       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEBAAEBQEAUlen_string@@XZ 000000014000c288     struct_reflection.obj
+ 0004:00000294       $pdata$??0?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@std@@QEAA@XZ 000000014000c294     struct_reflection.obj
+ 0004:000002a0       $pdata$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 000000014000c2a0     struct_reflection.obj
+ 0004:000002ac       $pdata$??0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z 000000014000c2ac     struct_reflection.obj
+ 0004:000002b8       $pdata$?dtor$0@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 000000014000c2b8     struct_reflection.obj
+ 0004:000002c4       $pdata$?catch$1@?0???0?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@AEBV01@@Z@4HA 000000014000c2c4     struct_reflection.obj
+ 0004:000002d0       $pdata$??1?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAA@XZ 000000014000c2d0     struct_reflection.obj
+ 0004:000002dc       $pdata$?push_back@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 000000014000c2dc     struct_reflection.obj
+ 0004:000002e8       $pdata$?size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 000000014000c2e8     struct_reflection.obj
+ 0004:000002f4       $pdata$?max_size@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 000000014000c2f4     struct_reflection.obj
+ 0004:00000300       $pdata$?capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEBA_KXZ 000000014000c300     struct_reflection.obj
+ 0004:0000030c       $pdata$?_Has_unused_capacity@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_NXZ 000000014000c30c     struct_reflection.obj
+ 0004:00000318       $pdata$??A?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAAEAUlen_string@@_K@Z 000000014000c318     struct_reflection.obj
+ 0004:00000324       $pdata$?_Umove@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU3@00@Z 000000014000c324     struct_reflection.obj
+ 0004:00000330       $pdata$?_Umove_if_noexcept1@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00U?$integral_constant@_N$00@2@@Z 000000014000c330     struct_reflection.obj
+ 0004:0000033c       $pdata$?_Umove_if_noexcept@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@00@Z 000000014000c33c     struct_reflection.obj
+ 0004:00000348       $pdata$?_Destroy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXPEAUlen_string@@0@Z 000000014000c348     struct_reflection.obj
+ 0004:00000354       $pdata$?_Calculate_growth@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBA_K_K@Z 000000014000c354     struct_reflection.obj
+ 0004:00000360       $pdata$?_Buy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAA_N_K@Z 000000014000c360     struct_reflection.obj
+ 0004:0000036c       $pdata$?_Change_array@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXQEAUlen_string@@_K1@Z 000000014000c36c     struct_reflection.obj
+ 0004:00000378       $pdata$?_Tidy@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAXXZ 000000014000c378     struct_reflection.obj
+ 0004:00000384       $pdata$?_Xlength@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@CAXXZ 000000014000c384     struct_reflection.obj
+ 0004:00000390       $pdata$?_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z 000000014000c390     struct_reflection.obj
+ 0004:0000039c       $pdata$?dtor$0@?0??_Orphan_range@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEBAXPEAUlen_string@@0@Z@4HA 000000014000c39c     struct_reflection.obj
+ 0004:000003a8       $pdata$?dtor$0@?0??append_struct_reflection_function@@YAXPEAUlen_string@@U1@V?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@Z@4HA 000000014000c3a8     struct_reflection.obj
+ 0004:000003b4       $pdata$main$dtor$0         000000014000c3b4     struct_reflection.obj
+ 0004:000003c0       $pdata$??$emplace_back@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAX$$QEAUlen_string@@@Z 000000014000c3c0     struct_reflection.obj
+ 0004:000003cc       $pdata$??$_Emplace_back_with_unused_capacity@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAX$$QEAUlen_string@@@Z 000000014000c3cc     struct_reflection.obj
+ 0004:000003d8       $pdata$??$construct@Ulen_string@@U1@@?$_Default_allocator_traits@V?$allocator@Ulen_string@@@std@@@std@@SAXAEAV?$allocator@Ulen_string@@@1@QEAUlen_string@@$$QEAU3@@Z 000000014000c3d8     struct_reflection.obj
+ 0004:000003e4       $pdata$??$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z 000000014000c3e4     struct_reflection.obj
+ 0004:000003f0       $pdata$?catch$0@?0???$_Emplace_reallocate@Ulen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@QEAAPEAUlen_string@@QEAU2@$$QEAU2@@Z@4HA 000000014000c3f0     struct_reflection.obj
+ 0004:000003fc       $pdata$??$?0V?$allocator@Ulen_string@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Ulen_string@@@1@@Z 000000014000c3fc     struct_reflection.obj
+ 0004:00000408       $pdata$??$_Ucopy@PEAUlen_string@@@?$vector@Ulen_string@@V?$allocator@Ulen_string@@@std@@@std@@AEAAPEAUlen_string@@PEAU2@00@Z 000000014000c408     struct_reflection.obj
+ 0004:00000414       $pdata$??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 000000014000c414     struct_reflection.obj
+ 0004:00000420       $pdata$??$?0$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 000000014000c420     struct_reflection.obj
+ 0004:0000042c       $pdata$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 000000014000c42c     struct_reflection.obj
+ 0004:00000438       $pdata$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 000000014000c438     struct_reflection.obj
+ 0004:00000444       $pdata$?allocate@?$allocator@U_Container_proxy@std@@@std@@QEAAPEAU_Container_proxy@2@_K@Z 000000014000c444     struct_reflection.obj
+ 0004:00000450       $pdata$?deallocate@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@2@QEAU_Container_proxy@2@_K@Z 000000014000c450     struct_reflection.obj
+ 0004:0000045c       $pdata$??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z 000000014000c45c     struct_reflection.obj
+ 0004:00000468       $pdata$??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@1@QEAU_Container_proxy@1@$$QEAU31@@Z 000000014000c468     struct_reflection.obj
+ 0004:00000474       $pdata$??$_Destroy_range@V?$allocator@Ulen_string@@@std@@@std@@YAXPEAUlen_string@@0AEAV?$allocator@Ulen_string@@@0@@Z 000000014000c474     struct_reflection.obj
+ 0004:00000480       $pdata$??$_Get_size_of_n@$0BA@@std@@YA_K_K@Z 000000014000c480     struct_reflection.obj
+ 0004:0000048c       $pdata$??$?0V?$allocator@Ulen_string@@@std@@$$V@?$_Compressed_pair@V?$allocator@Ulen_string@@@std@@V?$_Vector_val@U?$_Simple_types@Ulen_string@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Ulen_string@@@1@@Z 000000014000c48c     struct_reflection.obj
+ 0004:00000498       $pdata$??$_Uninitialized_copy@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 000000014000c498     struct_reflection.obj
+ 0004:000004a4       $pdata$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 000000014000c4a4     struct_reflection.obj
+ 0004:000004b0       $pdata$??$_Uninitialized_move@PEAUlen_string@@PEAU1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@0PEAU1@AEAV?$allocator@Ulen_string@@@0@@Z 000000014000c4b0     struct_reflection.obj
+ 0004:000004bc       $pdata$??$_Idl_distance@PEAUlen_string@@PEAU1@@std@@YA_JAEBQEAUlen_string@@0@Z 000000014000c4bc     struct_reflection.obj
+ 0004:000004c8       $pdata$??$_Uninitialized_copy_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 000000014000c4c8     struct_reflection.obj
+ 0004:000004d4       $pdata$??$_Uninitialized_move_al_unchecked@Ulen_string@@U1@V?$allocator@Ulen_string@@@std@@@std@@YAPEAUlen_string@@QEAU1@00AEAV?$allocator@Ulen_string@@@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z 000000014000c4d4     struct_reflection.obj
+ 0004:000004e0       $pdata$??$_Copy_memmove@PEAUlen_string@@PEAU1@@std@@YAPEAUlen_string@@PEAU1@00@Z 000000014000c4e0     struct_reflection.obj
+ 0004:000004ec       $pdata$??2@YAPEAX_K@Z      000000014000c4ec     MSVCRTD:new_scalar.obj
+ 0004:000004f8       $pdata$??3@YAXPEAX_K@Z     000000014000c4f8     MSVCRTD:delete_scalar_size.obj
+ 0004:00000504       $pdata$__GSHandlerCheck_EH 000000014000c504     MSVCRTD:gshandlereh.obj
+ 0004:0000051c       $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000014000c51c     MSVCRTD:exe_main.obj
+ 0004:00000528       $pdata$?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 000000014000c528     MSVCRTD:exe_main.obj
+ 0004:00000534       $pdata$?set_app_type@__scrt_main_policy@@SAXXZ 000000014000c534     MSVCRTD:exe_main.obj
+ 0004:00000540       $pdata$?set_fmode@__scrt_file_policy@@SAXXZ 000000014000c540     MSVCRTD:exe_main.obj
+ 0004:0000054c       $pdata$?set_commode@__scrt_file_policy@@SAXXZ 000000014000c54c     MSVCRTD:exe_main.obj
+ 0004:00000558       $pdata$?invoke_main@@YAHXZ 000000014000c558     MSVCRTD:exe_main.obj
+ 0004:00000564       $pdata$?pre_c_initialization@@YAHXZ 000000014000c564     MSVCRTD:exe_main.obj
+ 0004:00000570       $pdata$?post_pgo_initialization@@YAHXZ 000000014000c570     MSVCRTD:exe_main.obj
+ 0004:0000057c       $pdata$?pre_cpp_initialization@@YAXXZ 000000014000c57c     MSVCRTD:exe_main.obj
+ 0004:00000588       $pdata$?__scrt_common_main_seh@@YAHXZ 000000014000c588     MSVCRTD:exe_main.obj
+ 0004:00000594       $pdata$?filt$0@?0??__scrt_common_main_seh@@YAHXZ@4HA 000000014000c594     MSVCRTD:exe_main.obj
+ 0004:000005a0       $pdata$?__scrt_common_main@@YAHXZ 000000014000c5a0     MSVCRTD:exe_main.obj
+ 0004:000005ac       $pdata$mainCRTStartup      000000014000c5ac     MSVCRTD:exe_main.obj
+ 0004:000005b8       $pdata$??0exception@std@@QEAA@QEBDH@Z 000000014000c5b8     MSVCRTD:throw_bad_alloc.obj
+ 0004:000005c4       $pdata$??0exception@std@@QEAA@AEBV01@@Z 000000014000c5c4     MSVCRTD:throw_bad_alloc.obj
+ 0004:000005d0       $pdata$??1exception@std@@UEAA@XZ 000000014000c5d0     MSVCRTD:throw_bad_alloc.obj
+ 0004:000005dc       $pdata$?what@exception@std@@UEBAPEBDXZ 000000014000c5dc     MSVCRTD:throw_bad_alloc.obj
+ 0004:000005e8       $pdata$??_Gexception@std@@UEAAPEAXI@Z 000000014000c5e8     MSVCRTD:throw_bad_alloc.obj
+ 0004:000005f4       $pdata$??0bad_alloc@std@@QEAA@XZ 000000014000c5f4     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000600       $pdata$??0bad_alloc@std@@AEAA@QEBD@Z 000000014000c600     MSVCRTD:throw_bad_alloc.obj
+ 0004:0000060c       $pdata$??1bad_alloc@std@@UEAA@XZ 000000014000c60c     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000618       $pdata$??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000c618     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000624       $pdata$??_Gbad_alloc@std@@UEAAPEAXI@Z 000000014000c624     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000630       $pdata$??0bad_array_new_length@std@@QEAA@XZ 000000014000c630     MSVCRTD:throw_bad_alloc.obj
+ 0004:0000063c       $pdata$??1bad_array_new_length@std@@UEAA@XZ 000000014000c63c     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000648       $pdata$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 000000014000c648     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000654       $pdata$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 000000014000c654     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000660       $pdata$?__scrt_throw_std_bad_alloc@@YAXXZ 000000014000c660     MSVCRTD:throw_bad_alloc.obj
+ 0004:0000066c       $pdata$?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000014000c66c     MSVCRTD:throw_bad_alloc.obj
+ 0004:00000678       $pdata$??3@YAXPEAX@Z       000000014000c678     MSVCRTD:delete_scalar.obj
+ 0004:00000684       $pdata$__GSHandlerCheckCommon 000000014000c684     MSVCRTD:_gshandler_.obj
+ 0004:00000690       $pdata$__GSHandlerCheck    000000014000c690     MSVCRTD:_gshandler_.obj
+ 0004:0000069c       $pdata$__report_gsfailure  000000014000c69c     MSVCRTD:gs_report.obj
+ 0004:000006a8       $pdata$capture_previous_context 000000014000c6a8     MSVCRTD:gs_report.obj
+ 0004:000006b4       $pdata$__raise_securityfailure 000000014000c6b4     MSVCRTD:gs_report.obj
+ 0004:000006c0       $pdata$atexit              000000014000c6c0     MSVCRTD:utility.obj
+ 0004:000006cc       $pdata$_onexit             000000014000c6cc     MSVCRTD:utility.obj
+ 0004:000006d8       $pdata$__scrt_is_nonwritable_in_current_image 000000014000c6d8     MSVCRTD:utility.obj
+ 0004:000006e4       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 000000014000c6e4     MSVCRTD:utility.obj
+ 0004:000006f0       $pdata$__scrt_acquire_startup_lock 000000014000c6f0     MSVCRTD:utility.obj
+ 0004:000006fc       $pdata$__scrt_release_startup_lock 000000014000c6fc     MSVCRTD:utility.obj
+ 0004:00000708       $pdata$__scrt_initialize_crt 000000014000c708     MSVCRTD:utility.obj
+ 0004:00000714       $pdata$__scrt_uninitialize_crt 000000014000c714     MSVCRTD:utility.obj
+ 0004:00000720       $pdata$__scrt_initialize_onexit_tables 000000014000c720     MSVCRTD:utility.obj
+ 0004:0000072c       $pdata$?is_potentially_valid_image_base@@YA_NQEAX@Z 000000014000c72c     MSVCRTD:utility.obj
+ 0004:00000738       $pdata$?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000014000c738     MSVCRTD:utility.obj
+ 0004:00000744       $pdata$??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000014000c744     MSVCRTD:utility.obj
+ 0004:00000750       $pdata$??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000014000c750     MSVCRTD:utility.obj
+ 0004:0000075c       $pdata$__security_init_cookie 000000014000c75c     MSVCRTD:gs_support.obj
+ 0004:00000768       $pdata$__get_entropy       000000014000c768     MSVCRTD:gs_support.obj
+ 0004:00000774       $pdata$?__scrt_initialize_type_info@@YAXXZ 000000014000c774     MSVCRTD:tncleanup.obj
+ 0004:00000780       $pdata$__scrt_initialize_default_local_stdio_options 000000014000c780     MSVCRTD:default_local_stdio_options.obj
+ 0004:0000078c       $pdata$__scrt_is_user_matherr_present 000000014000c78c     MSVCRTD:matherr_detection.obj
+ 0004:00000798       $pdata$__scrt_is_managed_app 000000014000c798     MSVCRTD:utility_desktop.obj
+ 0004:000007a4       $pdata$__scrt_initialize_mta 000000014000c7a4     MSVCRTD:utility_desktop.obj
+ 0004:000007b0       $pdata$__scrt_set_unhandled_exception_filter 000000014000c7b0     MSVCRTD:utility_desktop.obj
+ 0004:000007bc       $pdata$__scrt_fastfail     000000014000c7bc     MSVCRTD:utility_desktop.obj
+ 0004:000007c8       $pdata$__scrt_unhandled_exception_filter 000000014000c7c8     MSVCRTD:utility_desktop.obj
+ 0004:000007d4       $pdata$_RTC_Initialize     000000014000c7d4     MSVCRTD:_initsect_.obj
+ 0004:000007e0       $pdata$_RTC_Terminate      000000014000c7e0     MSVCRTD:_initsect_.obj
+ 0004:000007ec       $pdata$??_Gtype_info@@UEAAPEAXI@Z 000000014000c7ec     MSVCRTD:std_type_info_static.obj
+ 0004:000007f8       $pdata$__isa_available_init 000000014000c7f8     MSVCRTD:_cpu_disp_.obj
+ 0004:00000804       $pdata$__scrt_is_ucrt_dll_in_use 000000014000c804     MSVCRTD:ucrt_detection.obj
