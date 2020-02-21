@@ -52,11 +52,11 @@ int main(u32 argc, char** argv)
 {
     if (argc >= 2 && is_cpp_or_h_file(argv[1]))
     {
-        printf("cpp or h file passed\n");
+//        printf("cpp or h file passed\n");
     }
     else
     {
-        printf("no cpp or h file passed\n");
+//        printf("no cpp or h file passed\n");
     }
     u64 length = 0;
     char* in_file_name = argv[1];
